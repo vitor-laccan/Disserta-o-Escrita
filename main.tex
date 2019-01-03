@@ -18,7 +18,8 @@
 
 \usepackage{graphicx,url}
 
-%\usepackage[brazil]{babel}   
+\usepackage[table,xcdraw]{xcolor}
+
 \usepackage[utf8]{inputenc}  
 \usepackage[normalem]{ulem}
 \usepackage{graphicx}
@@ -29,13 +30,6 @@
 \usepackage[square,sort,comma,numbers]{natbib}
 
 \usepackage[portuguese]{babel}
-
-%#### CONFIGURAÇÃO DE IDIOMA E ACENTUAÇÃO ###
-
-\usepackage[utf8x]{inputenc}
-\usepackage[portuguese]{babel}
-\usepackage[T1]{fontenc}
-\usepackage{indentfirst}
 
 %#### CONFIGURAÇÃO DE GRÁFICOS ###
 
@@ -67,8 +61,7 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{csquotes}
-\usepackage{array,multirow} %para gerar tabelas com colunas e/ou linhas mescladas e texto escrito na vertical
-%\usepackage{draftwatermark} %Para usar marca d'agua \usepackage[firstpage]{draftwatermark} se quiser apenas na primeira pagina
+\usepackage{array,multirow} %para gerar tabelas com colunas e/ou linhas mescladas e texto escrito na 
 \usepackage{scalefnt}
 
 
@@ -98,7 +91,7 @@
 
 \section{Introdução}
 
-\subsection{\textbf{Definição do Problema}}~\label{sec:def_Problema}
+\subsection{\textbf{Definição do Problema}}
 
 A colaboração científica é um fenômeno social que tem  por objeto a produção de conhecimento e os cientistas como os principais atores. As redes de coautoria é uma das formas de mensuração e indicação da interação entre esses atores, pelo esforço colaborativo entre pessoas, instituições e países para a geração e publicação de um trabalho científico.
 
@@ -122,7 +115,7 @@ Buscamos responder precipualmente as seguintes questões:
 \item Como se observa as comunidades de colaboração científica a partir das redes de coautoria?
 \end{itemize}
 
-\subsection{\textbf{Revisão da Literatura}}~\label{revisao}
+\subsection{\textbf{Revisão da Literatura}}
 
 A bibliometria é uma campo de conhecimento multidisciplinar com origem na biblioteconomia e na ciência da informação, que aplica métodos estatísticos e matemáticos para analisar e construir indicadores sobre a dinâmica e evolução da informação científica e tecnológica de determinadas disciplinas, áreas, organizações ou países.
 
@@ -139,7 +132,7 @@ Fica, assim, configurado o desafio para estudos relacionados a este tema.
 
 
 
-\subsection{\textbf{Contribuições}}~\label{contribuicao}
+\subsection{\textbf{Contribuições}}
   
 Neste trabalho propomos desenvolver um estudo para avaliação da colaboração científica por meio de redes de coautoria, com as seguintes caraterísticas:
 
@@ -149,7 +142,7 @@ Neste trabalho propomos desenvolver um estudo para avaliação da colaboração 
 \item Explanar as características e métricas quantitativas das redes pelo aspecto da colaboração científica.
 \end{itemize}
 
-\subsection{\textbf{Objetivos}}~\label{obetivos}
+\subsection{\textbf{Objetivos}}
 
 O objetivo desta pesquisa é a proposta da criação de um estudo modelo avaliativo do comportamento das redes de coautoria na base de dados objeto desse estudo, considerando alguns objetivos secundários, são eles:
 
@@ -180,14 +173,14 @@ As figuras abaixo representam a plotagem de grafos apresentando a visão da abor
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/intra-grafo.gif}
+\includegraphics[scale=0.8]{images/intra-grafo.pdf}
 \caption{Grafo com representação de Rede de Coautoria intra regional}
 \label{grafo1}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/inter-grafo.gif}
+\includegraphics[scale=0.8]{images/inter-grafo.pdf}
 \caption{Grafo com representação de Rede de Coautoria inter regional}
 \label{grafo2}
 \end{figure}
@@ -279,7 +272,7 @@ Os vértices da rede são as instituições, as arestas as ligações refere-se 
 
 \subsection{Tratamento de dados da rede}
 
-Nesta etapa foram elaborados alguns tratamentos da rede, tal como limpeza e padronização de alguns dados, de forma mínima, minuciosa, para evitar que a reprodutibilidade reste prejudicada. Segue abaixo os tratamentos realizados na rede:
+Nesta etapa foram elaborados alguns tratamentos da rede, tal como limpeza e padronização de alguns dados, de forma mínima e minuciosa, para evitar que a reprodutibilidade reste prejudicada. Segue abaixo os tratamentos realizados na rede:
 
 Ao campo que refere-se ao Estado (UF) foram associados a segregação por Região Geográfica, sendo elas: Norte, Nordeste, Centro-Oeste, Sul, Sudeste. 
 
@@ -441,73 +434,6 @@ Distância Média   & 1.25        & 1.13889     \\ \hline
 \caption{Métricas das redes da Região Sul para P1 e P2}
 \end{table}
 
-%%% VLR inserir no apêndice tabela com as Univ. Federais
-
-%\begin{table}[H]
-%\begin{tabular}{ll}
-%\hline
-%\textbf{Universidade Federal}                             & %\textbf{Região} \\ \hline
-%Universidade Federal de Goiás                             & Centro-Oeste    \\ \hline
-%Universidade Federal de Mato Grosso do Sul                & Centro-Oeste    \\ \hline
-%Universidade Federal de Mato Grosso                       & Centro-Oeste    \\ \hline
-%Universidade Federal da Grande dourados                   & Centro-Oeste    \\ \hline
-%Universidade Federal do Mato Grosso                       & Centro-Oeste    \\ \hline
-%Universidade Federal do Mato Grosso do Sul                & Centro-Oeste    \\ \hline
-%Universidade Federal do Ceará                             & Nordeste        \\ \hline
-%Universidade Federal do Pampa                             & Nordeste        \\ \hline
-%Universidade Federal do Piauí                             & Nordeste        \\ \hline
-%Universidade Federal de Campina Grande                    & Nordeste        \\ \hline
-%Universidade Federal de Alagoas                           & Nordeste        \\ \hline
-%Universidade Federal da Bahia                             & Nordeste        \\ \hline
-%Universidade Federal do Rio Grande do Norte               & Nordeste        \\ \hline
-%Universidade Federal de Sergipe                           & Nordeste        \\ \hline
-%Universidade Federal de Pernambuco                        & Nordeste        \\ \hline
-%Universidade Federal da Paraíba                           & Nordeste        \\ \hline
-%Universidade Federal Rural de Pernambuco                  & Nordeste        \\ \hline
-%Universidade Federal Rural do Semi-Árido                  & Nordeste        \\ \hline
-%Universidade Federal do Recôncavo da Bahia                & Nordeste        \\ \hline
-%Universidade Federal do Maranhão                          & Nordeste        \\ \hline
-%Universidade Federal do Vale do São Francisco             & Nordeste        \\ \hline
-%Universidade Federal do Pará                              & Norte           \\ \hline
-%Universidade Federal do Tocantins                         & Norte           \\ \hline
-%Universidade Federal do Acre                              & Norte           \\ \hline
-%Universidade Federal do Amazonas                          & Norte           \\ \hline
-%Universidade Federal de Rondônia                          & Norte           \\ \hline
-%Universidade Federal de Roraima                           & Norte           \\ \hline
-%Universidade Federal do Amapá                             & Norte           \\ \hline
-%Universidade Federal Rural da Amazônia                    & Norte           \\ \hline
-%Universidade Federal do Oeste do Pará                     & Norte           \\ \hline
-%Universidade Federal do Espírito Santo                    & Sudeste         \\ \hline
-%Universidade Federal de Lavras                            & Sudeste         \\ \hline
-%Universidade Federal de Viçosa                            & Sudeste         \\ \hline
-%Universidade Federal Fluminense                           & Sudeste         \\ \hline
-%Universidade Federal de Uberlândia                        & Sudeste         \\ \hline
-%Universidade Federal do Rio de Janeiro                    & Sudeste         \\ \hline
-%Universidade Federal de São Carlos                        & Sudeste         \\ \hline
-%Universidade Federal de Juiz de Fora                      & Sudeste         \\ \hline
-%Universidade Federal de São Paulo                         & Sudeste         \\ \hline
-%Universidade Federal Rural do Rio de Janeiro              & Sudeste         \\ \hline
-%Universidade Federal de Alfenas                           & Sudeste         \\ \hline
-%Universidade Federal de Ouro Preto                        & Sudeste         \\ \hline
-%Universidade Federal do Estado do Rio de Janeiro          & Sudeste         \\ \hline
-%Universidade Federal do Abc                               & Sudeste         \\ \hline
-%Universidade Federal do Triângulo Mineiro                 & Sudeste         \\ \hline
-%Universidade Federal dos Vales do Jequitinhonha E Mucuri  & Sudeste         \\ \hline
-%Universidade Federal de Itajubá                           & Sudeste         \\ \hline
-%Universidade Federal de São João Del-Rei                  & Sudeste         \\ \hline
-%Universidade Federal de S. Carlos                         & Sudeste         \\ \hline
-%Universidade Federal de Minas Gerais                      & Sudeteste       \\ \hline
-%Universidade Federal de Santa Maria                       & Sul             \\ \hline
-%Universidade Federal de Santa Catarina                    & Sul             \\ \hline
-%Universidade Federal do Rio Grande do Sul                 & Sul             \\ \hline
-%Universidade Federal de Pelotas                           & Sul             \\ \hline
-%Universidade Federal do Rio Grande                        & Sul             \\ \hline
-%Universidade Federal do Paraná                            & Sul             \\ \hline
-%Universidade Federal de Ciências da Saúde de Porto Alegre & Sul             \\ \hline
-%Universidade Federal da Fronteira Sul                     & Sul             \\ \hline
-%Universidade Federal da Integração Latino-Americana       & Sul             \\ \hline
-%\end{tabular}
-%\end{table}
 
 \bibliographystyle{agsm}
 \bibliography{references}
