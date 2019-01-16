@@ -1,29 +1,11 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% How to use writeLaTeX: 
-%
-% You edit the source code here on the left, and the preview on the
-% right shows you the result within a few seconds.
-%
-% Bookmark this page and share the URL with your co-authors. They can
-% edit at the same time!
-%
-% You can upload figures, bibliographies, custom classes and
-% styles using the files menu.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[12pt]{article}
 
 \usepackage{sbc-template}
-
-\usepackage{graphicx}
+\usepackage{graphicx,url}
 
 \usepackage[table,xcdraw]{xcolor}
 
-\usepackage[utf8]{inputenc}  
-\usepackage[normalem]{ulem}
-\usepackage{graphicx}
-\usepackage{float}
+\usepackage[utf8]{inputenc} 
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
 
@@ -45,13 +27,14 @@
 
 %#### CONFIGURAÇÕES MATEMÁTICAS ####
 
-\usepackage{amsmath} 
 \usepackage{amsfonts} 
 \usepackage{amssymb} 
+\usepackage{amsmath,bm,bbm} 
 
 %#### CONFIGURAÇÕES REFERENCIAS BIBLIOGRÁFICAS ####
 
 \usepackage{natbib}
+\bibpunct{[}{]}{,}{a}{,}{,}
 
 %#### CONFIGURAÇÕES EXTRAS GERAIS ####
 
@@ -63,6 +46,8 @@
 \usepackage{csquotes}
 \usepackage{array,multirow} %para gerar tabelas com colunas e/ou linhas mescladas e texto escrito na 
 \usepackage{scalefnt}
+
+\usepackage{siunitx}
 
 
 \sloppy
@@ -159,16 +144,15 @@ A fundamentação deste trabalho encontra-se respaldado na teoria dos grafos e n
 
 \subsection{Teoria dos Grafos}
 
+Em teoria de grafos, temos que um grafo é o conjunto de $G = (\bm V,\bm E)$ ($G$ = Grafos, $V$ = Vértices e $E$ = Arestas), onde $V$ é um conjunto não vazio de objetos denominados vértices (ou nós) e $E$ é um subconjunto de pares não ordenados de $V$. Neste entendimento temos que grafos pode serem caracterizados no prisma de algumas propriedades, como por exemplo o comportamento da ligação das arestas pode ser classificado como não direcional ou direcional, onde cada aresta $\Vec E$ de $\Vec G = (\bm V,\bm \Vec E)$ possui um sentido ou orientação definido por um par ordenado $(\bm x_{1}, \bm x_{2})$, sendo $x_{1}$ o ponto inicial e $x_{2}$ o ponto final da aresta em questão.
+
 O estudo de redes complexas é um tema  que abrange diversas áreas de conhecimento, tais como a ciência da computação, matemática, física, biologia e sociologia. 
 O termo ``redes complexas'' refere-se a um grafo que apresenta uma estrutura topográfica não trivial, composto por um conjunto de vértices (nós) que são interligados por meio de arestas \cite{barabasi2003everything}. 
 O estudo de redes na forma de grafos é um dos pilares da matemática discreta e teve início em 1735, quando Euler propôs uma solução para o problema das pontes de Königsberg, originando a teoria dos grafos.
 
-Em teoria de grafos, temos que um grafo é o conjunto de G(V,E) onde G = Grafos, V = Vértices e E = Edge (ou arestas / ligações), onde V é um conjunto não vazio de objetos denominados vértices (ou nós) e E é um subconjunto de pares não ordenados de V. Neste entendimento temos que grafos pode serem caracterizados no prisma de algumas propriedades como por exemplo o comportamento da ligação das arestas como direcional ou não direcional.
-
 Redes de coautoria se caracteriza por ligação não direcional, ou seja, que independe de quem seja o ponto de origem para o destino da ligação, pois devemos para a proposta deste trabalho, considerar que se uma instituição publicou um artigo em coautoria com outra instituição, a recíproca é verdadeira e não há distinção de qual tem propriedades valoradas, como a iniciativa ou mesmo o grau de participação do coautor na publicação em tela.
 
-
-As figuras abaixo representam a plotagem de grafos apresentando a visão da abordagem de coautorias intra-regional conforme a Figura \ref{grafo1}, e coautorias inter-regional vide Figura \ref{grafo2}, onde S é a representação da região da instituição, X os autores (vértices ou nós) e as arestas/ligações representam a relação de coautoria entre eles.
+As figuras abaixo representam a plotagem de grafos apresentando a visão da abordagem de coautorias intra-regional conforme a Figura \ref{grafo1}, e coautorias inter-regional vide Figura \ref{grafo2}, onde $S$ é a representação da região da instituição, $X$ os autores (vértices ou nós) e as arestas/ligações representam a relação de coautoria entre eles.
 
 
 \begin{figure}[H]
@@ -196,7 +180,7 @@ A análise de redes sociais (ARS ou SNA, da expressão em inglês \textit{Social
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/rede-newman.PNG}
+\includegraphics[scale=0.6]{images/rede-newman.pdf}
 \caption{Pequena Rede de Coautoria de Newman}
 \label{rede1}
 \end{figure}
@@ -206,26 +190,50 @@ A análise de redes sociais (ARS ou SNA, da expressão em inglês \textit{Social
 
 No contexto da teoria de redes complexas, uma rede corresponde a um grafo, que se representa por um conjunto de nós ligados por arestas, que em conjunto formam uma rede.  Esta rede ou grafo, permite representar relações com fundamento das propriedades dos vários tipos de grafos e como são constituídos, ou seja, como se agrupam os seus nós e são ligadas suas arestas %\cite{mendes2005fisica}.
 
-%As propriedades de redes complexas às quais utilizaremos nesse trabalho são:
-%a)~grau de um nó - é o número de ligações de um nó;
+As propriedades de redes complexas às quais utilizaremos nesse trabalho se encontram definidas a seguir.
 %b)~distribuição da conectividade - forma como se distribuem as ligações pelos nós;
-%c)~conectividade média - é dada pela média do número de ligações entre os nós;
-%d)~caminho mais curto - é a menor distância entre dois nós de uma rede, dado que poderá haver mais do que um caminho a ligá-los;
-%e)~diâmetro - é o comprimento da maior distância entre 2 nós, medidos em número de ligações;
 %f)~coeficiente de agregação ou aglomeração \textit{(clustering coefficient)} - é o número de ligações entre os vizinhos mais próximos de um nó;
 %g)~redes estáticas/dinâmicas - a rede é estática quando não há variação do número de nós e, é dinâmica, quando é possível modelar o seu crescimento pela análise da variação da sua estrutura ao longo do tempo.
 
 %%% VLR definir se usar o itemize, enumerate ou não usar.
 
-\begin{itemize}
-\item Grau de um nó - é o número de ligações de um nó;
-\item Distribuição da conectividade - forma como se distribuem as ligações pelos nós;
-\item Conectividade média - é dada pela média do número de ligações entre os nós;
-\item Caminho mais curto - é a menor distância entre dois nós de uma rede, dado que poderá haver mais do que um caminho a ligá-los;
-\item Diâmetro - é o comprimento da maior distância entre 2 nós, medidos em número de ligações;
-\item Coeficiente de agregação ou aglomeração \textit{(clustering coefficient)} - é o número de ligações entre os vizinhos mais próximos de um nó;
-\item Redes estáticas/dinâmicas - a rede é estática quando não há variação do número de nós e, é dinâmica, quando é possível modelar o seu crescimento pela análise da variação da sua estrutura ao longo do tempo.
-\end{itemize}
+\noindent \textbf{Definição 2.3.1} (Grau de um nó). O número de vértices adjacentes a um determinado vértice $x_i$ chama-se de grau de $x_i$. Em um grafo direcionado $\Vec G = (\bm V,\bm \Vec E)$, diferenciamos o grau de saída (output) do grau de entrada (input):
+
+\begin{equation}
+k^{out}_{x_{i}}(\Vec{G}) = \sum_{x_j \in V : x_j \neq x_i}^{} A[x_i,x_j]
+\label{eq:grauOutput}
+\end{equation}
+
+\begin{equation}
+k^{in}_{x_{i}}(\Vec{G}) = \sum_{x_j \in V : x_j \neq x_i}^{} A[x_j,x_i]
+\label{eq:grauInput}
+\end{equation}
+
+Desse modo, chamamos de grau de $x_i$: 
+
+\begin{equation}
+k_{x_i}(\Vec{G}) = k^{out}_{x_{i}}(\Vec{G}) + k^{in}_{x_{i}}(\Vec{G})
+\label{eq:grau}
+\end{equation}
+
+\noindent \textbf{Definição 2.3.2} (Distribuição da conectividade). Consiste da forma como se distribuem as ligações pelos nós.
+
+\noindent \textbf{Definição 2.3.3} (Conectividade média). É definida como a média, sobre todos os pares de vértices, do número máximo de caminhos conectando dois vértices. Logo:
+
+\begin{equation}
+\Bar{k}(\Vec{G}) = \frac{\sum_{x_i, x_j}^{} k_{\Vec{G}}(x_i, x_j)}{{n \choose 2}}
+\label{eq:grauInput}
+\end{equation}
+
+Onde $k_{\Vec{G}}(x_i, x_j)$ é a conectividade entre $x_i$ e $x_j$, definida como o máximo número de ligações conectando ambos vértices e $n$ é o número de nós de $G$.
+
+\noindent \textbf{Definição 2.3.4} (Caminho mais curto). Consiste de qualquer caminho que ligue dois vértices $x_i$ e $x_j$ e possua a menor distância, denotada por $d_G$.
+
+\noindent \textbf{Definição 2.3.5} (Diâmetro). É definido como a excentricidade máxima entre dois nós. A excentricidade de um nó $x_i$ é definida como a distância máxima de $x_i$ a todos os outros nós do grafo $G$.
+
+\noindent \textbf{Definição 2.3.6} (Coeficiente de agregação ou aglomeração \textit{(clustering coefficient)}). Trata-se do número de ligações entre os vizinhos mais próximos de um nó.
+
+\noindent \textbf{Definição 2.3.7} (Redes estáticas/dinâmicas). Uma rede é estática quando não há variação do número de nós e, é dinâmica, quando é possível modelar o seu crescimento pela análise da variação da sua estrutura ao longo do tempo.
 
 \section{Colaboração Científica}
 
@@ -301,7 +309,7 @@ A seguir apresentamos as redes de cada região, sendo os vértices a Universidad
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/norte.png}
+\includegraphics[scale=0.6]{images/norte.pdf}
 \caption{Rede de Coautoria entre as Universidades Federais da \textbf{Região Norte} [P1 e P2]}
 \label{rede-norte}
 \end{figure}
@@ -313,14 +321,14 @@ A inspeção visual (análise gráfica) das redes plotadas traz uma notável imp
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lll}
+\begin{tabular}{lS[table-format=3.5]S[table-format=3.5]}
 \hline
 \rowcolor[HTML]{C0C0C0} 
 \textbf{Métricas} & \textbf{P1} & \textbf{P2} \\ \hline
-Qtde. de Vértices & 9           & 9           \\ \hline
-Qtde. de Arestas  & 17          & 26          \\ \hline
+Qtde. de Vértices & 9     & 9           \\ \hline
+Qtde. de Arestas  & 17     & 26          \\ \hline
 Grau Médio        & 3.77778     & 5.77778     \\ \hline
-Diâmetro          & 9           & 7           \\ \hline
+Diâmetro          & 9     & 7           \\ \hline
 Distância Média   & 1.58333     & 1.27778     \\ \hline
 \end{tabular}
 \caption{Métricas das redes da Região Norte para P1 e P2}
@@ -330,7 +338,7 @@ Distância Média   & 1.58333     & 1.27778     \\ \hline
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/nordeste.png}
+\includegraphics[scale=0.6]{images/nordeste.pdf}
 \caption{Rede de Coautoria entre as Universidades Federais da Região Nordeste [P1 e P2]}
 \label{rede-nordeste}
 \end{figure}
@@ -340,14 +348,14 @@ Distância Média   & 1.58333     & 1.27778     \\ \hline
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lll}
+\begin{tabular}{lS[table-format=3.5]S[table-format=3.5]}
 \hline
 \rowcolor[HTML]{C0C0C0} 
 \textbf{Métricas} & \textbf{P1} & \textbf{P2} \\ \hline
-Qtde. de Vértices & 14           & 14           \\ \hline
-Qtde. de Arestas  & 83           & 91          \\ \hline
+Qtde. de Vértices & 14     & 14           \\ \hline
+Qtde. de Arestas  & 83     & 91          \\ \hline
 Grau Médio        & 11.85714     & 13     \\ \hline
-Diâmetro          & 39           & 37           \\ \hline
+Diâmetro          & 39     & 37           \\ \hline
 Distância Média   & 1.08791      & 1     \\ \hline
 \end{tabular}
 \caption{Métricas das redes da Região Nordeste para P1 e P2}
@@ -359,7 +367,7 @@ Distância Média   & 1.08791      & 1     \\ \hline
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/centro_oeste.png}
+\includegraphics[scale=0.6]{images/centro_oeste.pdf}
 \caption{Rede de Coautoria entre as Universidades Federais da Região Centro-Oeste [P1 e P2]}
 \label{rede-centro}
 \end{figure}
@@ -368,7 +376,7 @@ Distância Média   & 1.08791      & 1     \\ \hline
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lll}
+\begin{tabular}{lS[table-format=3.5]S[table-format=3.5]}
 \hline
 \rowcolor[HTML]{C0C0C0} 
 \textbf{Métricas} & \textbf{P1} & \textbf{P2} \\ \hline
@@ -385,7 +393,7 @@ Distância Média   & 1           & 1            \\ \hline
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/sudeste.png}
+\includegraphics[scale=0.6]{images/sudeste.pdf}
 \caption{Rede de Coautoria entre as Universidades Federais da Região Sudeste [P1 e P2]}
 \label{rede-sudeste}
 \end{figure}
@@ -394,15 +402,15 @@ Distância Média   & 1           & 1            \\ \hline
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lll}
+\begin{tabular}{lS[table-format=3.5]S[table-format=3.5]}
 \hline
 \rowcolor[HTML]{C0C0C0} 
 \textbf{Métricas} & \textbf{P1} & \textbf{P2} \\ \hline
-Qtde. de Vértices & 18          & 18           \\ \hline
-Qtde. de Arestas  & 132         & 142          \\ \hline
+Qtde. de Vértices & 18    & 18           \\ \hline
+Qtde. de Arestas  & 132   & 142          \\ \hline
 Grau Médio        & 14.66667    & 15.77778     \\ \hline
-Diâmetro          & 17          & 26           \\ \hline
-Distância Média   & 1.13725     & 1.0719     \\ \hline
+Diâmetro          & 17    & 26           \\ \hline
+Distância Média   & 1.13725     & 1.07190     \\ \hline
 \end{tabular}
 \caption{Métricas das redes da Região Sudeste para P1 e P2}
 \end{table}
@@ -412,7 +420,7 @@ Distância Média   & 1.13725     & 1.0719     \\ \hline
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{images/sul.png}
+\includegraphics[scale=0.6]{images/sul.pdf}
 \caption{Rede de Coautoria entre as Universidades Federais da Região Sul [P1 e P2]}
 \label{rede-sul}
 \end{figure}
@@ -421,7 +429,7 @@ Distância Média   & 1.13725     & 1.0719     \\ \hline
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lll}
+\begin{tabular}{lS[table-format=3.5]S[table-format=3.5]}
 \hline
 \rowcolor[HTML]{C0C0C0} 
 \textbf{Métricas} & \textbf{P1} & \textbf{P2} \\ \hline
@@ -431,11 +439,12 @@ Grau Médio        & 6           & 6.88889     \\ \hline
 Diâmetro          & 58          & 89           \\ \hline
 Distância Média   & 1.25        & 1.13889     \\ \hline
 \end{tabular}
-\caption{Métricas das redes da Região Sul para P1 e P2}
+\caption{Métricas das redes da Região Sul par a P1 e P2}
 \end{table}
 
 
-\bibliographystyle{agsm}
+\bibliographystyle{apalike}
+\nocite{*}
 \bibliography{references}
 
 \end{document}
