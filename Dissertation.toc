@@ -1,0 +1,66 @@
+\babel@toc {english}{}
+\babel@toc {portuguese}{}
+\babel@toc {english}{}
+\babel@toc {portuguese}{}
+\contentsline {chapter}{1\hspace {1em}\textsc {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{mychaptercounter.1}
+\contentsline {section}{\numberline {1.1}\textbf {Defini\IeC {\c c}\IeC {\~a}o do Problema}}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}\textbf {Revis\IeC {\~a}o da literatura}}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}\textbf {Contribui\IeC {\c c}\IeC {\~o}es}}{11}{section.1.3}
+\contentsline {section}{\numberline {1.4}\textbf {Objetivo}}{11}{section.1.4}
+\contentsline {section}{\numberline {1.5}\textbf {Organiza\IeC {\c c}\IeC {\~a}o da Disserta\IeC {\c c}\IeC {\~a}o}}{11}{section.1.5}
+\contentsline {chapter}{2\hspace {1em}\textsc {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{13}{mychaptercounter.2}
+\contentsline {section}{\numberline {2.1}\textbf {Teoria dos Grafos}}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}\textbf {An\IeC {\'a}lise de Redes Sociais}}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}\textbf {Redes Complexas}}{15}{section.2.3}
+\contentsline {section}{\numberline {2.4}\textbf {Colabora\IeC {\c c}\IeC {\~a}o Cient\IeC {\'\i }fica}}{17}{section.2.4}
+\contentsline {chapter}{3\hspace {1em}\textsc {Metodologia}}{19}{mychaptercounter.3}
+\contentsline {section}{\numberline {3.1}\textbf {Defini\IeC {\c c}\IeC {\~a}o da rede}}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}\textbf {Tratamento de dados da rede}}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}\textbf {Determina\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas estruturais}}{20}{section.3.3}
+\contentsline {section}{\numberline {3.4}\textbf {Inspe\IeC {\c c}\IeC {\~a}o visual}}{21}{section.3.4}
+\contentsline {chapter}{4\hspace {1em}\textsc {Resultados e An\IeC {\'a}lises}}{22}{mychaptercounter.4}
+\contentsline {section}{\numberline {4.1}\textbf {Redes de Coutorias - Base SciELO}}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\textbf {Caracter\IeC {\'\i }sticas Estruturais}}{23}{subsection.4.1.1}
+\contentsline {subsubsection}{\textbf {Matrizes de Coautorias por Unidades Federativas}}{24}{section*.11}
+\contentsline {subsubsection}{Health Sciences}{25}{section*.12}
+\contentsline {subsubsection}{Agricultural Sciences}{26}{section*.13}
+\contentsline {subsubsection}{Exact and Earth Sciences}{27}{section*.14}
+\contentsline {subsubsection}{Visualiza\IeC {\c c}\IeC {\~a}o da rede}{27}{section*.15}
+\contentsline {section}{\numberline {4.2}\textbf {Medidas de Centralidade}}{29}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\textbf {Centralidade do Grau}}{30}{subsection.4.2.1}
+\contentsline {subsubsection}{Health Sciences}{31}{section*.16}
+\contentsline {subsubsection}{Agricultural Sciences}{31}{section*.17}
+\contentsline {subsubsection}{Exact and Earth Sciences}{32}{section*.18}
+\contentsline {subsection}{\numberline {4.2.2}\textbf {Centralidade de Proximidade}}{34}{subsection.4.2.2}
+\contentsline {subsubsection}{Health Sciences}{35}{section*.19}
+\contentsline {subsubsection}{Agricultural Sciences}{36}{section*.20}
+\contentsline {subsubsection}{Exact and Earth Sciences}{36}{section*.21}
+\contentsline {subsubsection}{Health Sciences}{37}{section*.22}
+\contentsline {subsubsection}{Agricultural Sciences}{38}{section*.23}
+\contentsline {subsubsection}{Exact and Earth Sciences}{39}{section*.24}
+\contentsline {subsection}{\numberline {4.2.3}\textbf {Centralidade de Intermedia\IeC {\c c}\IeC {\~a}o}}{39}{subsection.4.2.3}
+\contentsline {subsubsection}{Health Sciences}{40}{section*.25}
+\contentsline {subsubsection}{Agricultural Sciences}{41}{section*.26}
+\contentsline {subsubsection}{Exact and Earth Sciences}{41}{section*.27}
+\contentsline {subsubsection}{Health Sciences}{42}{section*.28}
+\contentsline {subsubsection}{Agricultural Sciences}{43}{section*.29}
+\contentsline {subsubsection}{Exact and Earth Sciences}{44}{section*.30}
+\contentsline {section}{\numberline {4.3}\textbf {Ranking das Medidas de Centralidade}}{44}{section.4.3}
+\contentsline {subsubsection}{Ranking: \textit {Health Sciences}}{45}{section*.31}
+\contentsline {subsubsection}{Ranking: \textit {Agricultural Sciences}}{46}{section*.32}
+\contentsline {subsubsection}{Ranking: \textit {Exact and Earth Sciences}}{47}{section*.33}
+\contentsline {section}{\numberline {4.4}\textbf {Discuss\IeC {\~a}o dos Resultados}}{47}{section.4.4}
+\contentsline {chapter}{5\hspace {1em}\textsc {Conclus\IeC {\~o}es}}{49}{mychaptercounter.5}
+\contentsline {section}{\numberline {5.1}\textbf {Considera\IeC {\c c}\IeC {\~o}es Finais}}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}\textbf {Trabalhos futuros}}{50}{section.5.2}
+\contentsline {chapter}{\numberline {A}\textsc {Redes de Coautoria}}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}\textbf {Health Sciences}}{53}{section.A.1}
+\contentsline {subsubsection}{Rede de Coautoria das Universidade Federais do Brasil}{53}{section*.35}
+\contentsline {subsubsection}{Rede de Coautoria Brasil - V\IeC {\'e}rtice Focal Alagoas}{54}{section*.36}
+\contentsline {section}{\numberline {A.2}\textbf {Agricultural Sciences}}{56}{section.A.2}
+\contentsline {subsubsection}{Rede de Coautoria das Universidade Federais do Brasil}{56}{section*.37}
+\contentsline {subsubsection}{Rede de Coautoria Brasil - V\IeC {\'e}rtice Focal Alagoas}{57}{section*.38}
+\contentsline {section}{\numberline {A.3}\textbf {Exact and Earth Sciences}}{59}{section.A.3}
+\contentsline {subsubsection}{Rede de Coautoria das Universidade Federais do Brasil}{59}{section*.39}
+\contentsline {subsubsection}{Rede de Coautoria Brasil - V\IeC {\'e}rtice Focal Alagoas}{60}{section*.40}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{61}{appendix*.41}

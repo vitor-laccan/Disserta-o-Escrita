@@ -1,0 +1,219 @@
+\documentclass[tcc]{ic}
+
+\usepackage{bbm}
+\usepackage{indentfirst}
+\usepackage{lscape}
+\usetikzlibrary{decorations}
+\usetikzlibrary{shapes.symbols}
+\usetikzlibrary{fit,positioning,arrows.meta}%RNN
+\usetikzlibrary{shapes.arrows}
+\usepackage{tikz}
+\usetikzlibrary{matrix,chains,positioning,decorations.pathreplacing,arrows}
+\usepackage{icomma}
+\usepackage{smartdiagram}
+\usepackage{microtype}
+\usepackage{psfrag}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{tikz, pgfplots}
+\usepackage{rotating}
+\usepackage{rotfloat}
+\usepackage[list-final-separator={ e }, range-phrase={ até }]{siunitx} %Para formatar datas e outros campos numéricos.
+\usepackage{placeins} %Força Tabela/Figura ficar abaixo do texto.
+\usepgfplotslibrary{fillbetween}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{scalefnt}
+\usepackage{chngpage}
+
+
+
+\newenvironment{demonst} 
+               {\noindent \textit{\textbf{Demonstração.}}~ } %begin demonst
+               {\hfill\rule{2mm}{2mm} \vspace{\parskip} } %end demonst
+
+\newtheorem{definicao}{Definição}[section]
+\newtheorem{teorema}{Teorema}[section]
+\newtheorem{lema}{Lema}
+\newtheorem{corolario}{Corolário}
+\newtheorem{proposicao}{Proposição}
+
+\pgfplotsset{compat=1.7}
+
+%ZIPF
+\pgfmathdeclarefunction{gauss}{3}{%
+\pgfmathparse{1/(#3*sqrt(2*pi))*exp(-((#1-#2)^2)/(2*#3^2))}%
+}
+
+%RNN
+\tikzset{neuron/.style={shape=circle, minimum size=1.25cm, 
+  inner sep=0, draw, font=\small}, io/.style={neuron, fill=gray!20}}
+
+%======================================================%
+%=========== Informações do documento PDF =============%
+%======================================================%
+\hypersetup{
+colorlinks = {true},
+linktocpage = {false},
+plainpages = {false},
+linkcolor = {Blue},
+citecolor = {Blue},
+urlcolor = {Red},
+unicode = {true},
+pdftitle ={Redes de Coautoria da Base SciELO: Avaliação da Colaboração Científica por Medidas de Centralidade de Redes Complexas},
+pdfauthor = {Vitor Luiz Pereira Ribeiro},
+pdfsubject = {Disserta\c c\~ao de Mestrado},
+pdfkeywords={Bibliometria, Redes de Coautoria, Medidas de Centralidade},
+pdfcreator = {LaTeX2e},
+pdffitwindow = {false},
+pdfstartview = {FitH},
+pdftoolbar = {true},
+pdfpagemode = {UseOutlines},
+pdfview = {XYZ null null null}
+}
+
+%======================================================%
+%================ CAPA DA DISSERTAÇÃO =================%
+%======================================================%
+\titulo{Redes de Coautoria da Base SciELO: Avaliação da Colaboração Científica por Medidas de Centralidade de Redes Complexas}
+
+\autor{Vitor Luiz Pereira Ribeiro}{vitor.ribeiro@laccan.ufal.br}{}
+
+\orientador{Dr. Alejandro C.\ Frery}{http://sites.google.com/site/acfrery/}{Instituto de Computação}{Universidade Federal de Alagoas}
+
+\examinador{Dr. Osvaldo Anibal Rosso}{oarosso@gmail.com}{Instituto ou Departamento}{Instituto de Física \\ Universidade Federal de Alagoas}
+
+\examinadorTres{Dr. Leonardo Melo de Medeiros}{}{Instituto ou Departamento}{Instituto Federal de Alagoas}
+
+%\examinadorQuatro{Examinador 4}{ex4@email.com}{Instituto ou Departamento}{Universidade do Examinador 4}
+
+\dataMesAno{Julho}{2019}
+
+\begin{document}
+
+\selectlanguage{portuguese}
+
+\capa
+
+
+%======================================================%
+%======================= RESUMO =======================%
+%======================================================%
+\begin{resumo}
+\noindent 
+
+Na área de bibliometria, estudos vêm sendo realizados para mensurar quantitativa e qualitativamente a evolução da produção do conhecimento científico. Nesta direção, as redes de coautoria é uma das formas de indicar a interação entre autores, pelo esforço colaborativo entre pessoas, instituições e países para a geração e publicação de um trabalho científico. Este trabalho busca a propositura de uma análise investigativa a partir de base de dados de indexação de artigos científico SciELO, utilizando para tal, propriedades e métricas da teoria dos grafos e redes complexas, tais como \textit{degree centrality, betweeness centrality e closeness centrality}, propondo uma avaliação da rede global de coautoria das Universidades Federais do Brasil e da rede local, definida como vértice focal a Universidade Federal de Alagoas, para série temporal de 2008 à 2017 nas áreas de \textit{Health Sciences} - Ciências da Saúde, \textit{Agricultural Science} - Ciências Agrárias, \textit{Exact and Earth Sciences} - Ciências Exatas e da Terra. Este trabalhou baseou-se em uma metodologia que consistiu nas etapas: a) definição da rede, b) tratamento de dados, c) determinação das características estruturais, d) inspeção visual. Os resultados foram gerados numérica e graficamente, permitindo avaliações e interpretações do comportamento das redes estudadas com base nas medidas de centralidade utilizadas neste trabalho.
+
+\vspace{1em}
+
+\noindent
+{\bf Palavras-chave}: Bibliometria, Redes de Coautoria, Medidas de Centralidade.
+\end{resumo}
+
+%======================================================%
+%====================== ABSTRACT ======================%
+%======================================================%
+\selectlanguage{english}
+\begin{abstract}
+\noindent 
+
+In bibliometrics field, studies have been carried out to quantitatively and qualitatively measure the evolution of the production of scientific knowledge. In this direction, co-authorship networks is one way of indicating the interaction between authors, through the collaborative effort between people, institutions and countries for the production and publication of a scientific work. This work seeks the proposition of an investigative analysis based on the index database of SciELO scientific articles, using for that purpose, properties and metrics of graph theory and complex networks, such as degree centrality, betweeness centrality and closeness centrality, proposing a evaluation of the global co-authoship network of the Federal Universities of Brazil and the local network, defined as focal point at the Federal University of Alagoas, for a time series from 2008 to 2017 in the areas of Health Sciences, Agricultural Sciences, Exact and Earth Sciences. This work was based on a methodology that consisted of the steps: a) definition of the network, b) data treatment, c) determination of structural characteristics, d) visual inspection. The results were generated numerically and graphically, allowing evaluations and interpretations of the behavior of the networks studied based on the centrality measures used in this work.
+
+\vspace{1em}
+
+\noindent 
+{\bf Keywords}: Biblimetrics, Networks Co-authorship, Centrality Measures
+
+
+\end{abstract}
+
+%======================================================%
+%=================== AGRADECIMENTOS ===================%
+%======================================================%
+\selectlanguage{portuguese}
+\begin{agradecimentos}
+% 
+
+Agradeço primeiramente a Deus pela permissão de cursar Mestrado com a proteção e a iluminação para a conclusão do mesmo. Ao apoio incondicional da minha família, em especial, meus pais Luiz e Magaly, que nos momentos difíceis me acalentaram com conforto e apoio. Gostaria de registrar os agradecimentos a muitos familiares que de perto viram a dedicação e motivação para a realização desta formação. A minha esposa Patrícia que a todos os momentos esteve ao meu lado dando força e energia para que o trabalho seguisse em frente e pudesse então chegar a sua fase final. Não posso deixar de mencionar o apoio de muitos amigos e colegas de sala pelas conversas formais e informais, aos colegas de trabalho e ao meu chefe Marcel, pelo incentivo e reconhecimento da importância da formação em grau de Mestre. A todos os professores das disciplinas do programa, que possibilitaram o engrandecimento do processo de minha formação. Agradeço pela oportunidade de ter sido aluno do Prof. Alejandro Frery, pelo exemplo da vida de um cientista, sua contribuição e influência na minha formação acadêmica, também pela generosidade e paciência na compreensão das minhas dificuldades e limitações, e ter sido o principal incentivador para a superação destas.
+
+% 
+\begin{flushright}
+Vitor Luiz Pereira Ribeiro
+\end{flushright}
+\end{agradecimentos}
+
+%======================================================%
+%====================== EPÍGRAFE ======================%
+%======================================================%
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}\vfill
+% \begin{flushright}
+% \emph{``frase.''}\\
+% \vspace{1em}
+% \textbf{Autor}
+% \end{flushright}
+
+%======================================================%
+%======================= LISTAS =======================%
+%======================================================%
+\mylistoffigure
+
+\mylistoftable
+
+%\mylistofalgorithm
+
+%\mylistofequation
+
+\mylistofcontents
+
+
+\inicio
+\setcounter{page}{9} %verificar quantas páginas possuem até iniciar o capítulo 1 (subtraindo capa, folha de aprovação e catalogação).
+
+%======================================================%
+%============= CAPÍTULOS DA DISSERTAÇÃO ===============%
+%======================================================%
+
+\include{./capitulos/introducao}
+\include{./capitulos/fundamentacao}
+\include{./capitulos/metodologia}
+\include{./capitulos/resultados}
+\include{./capitulos/conclusao}
+
+%Apêndices e Anexos
+\appendix
+\include{./capitulos/redes}
+
+%======================================================%
+%============= REFERÊNCIAS BIBLIOGRÁFICAS =============%
+%======================================================%
+\begin{raggedright}
+%\bibliographystyle{agsm_url}
+\bibliographystyle{agsm}
+\renewcommand{\bibsection}{
+\chapter*{\vspace{-3cm}\centering \Large \textsc{Referências Bibliográficas}}
+\addcontentsline{toc}{chapter}{Referências Bibliográficas}
+}
+\lhead{\textsc{Referências Bibliográficas}}
+\bibliography{./Bibliography/Ref}
+\newpage\lhead{\rightmark}
+\end{raggedright}
+
+
+%======================================================%
+
+\chapter*{}
+\vfill
+\singlespacing
+\thispagestyle{empty}
+\begin{center}
+Este trabalho foi redigido em {\large \LaTeX}\ utilizando uma modificação do estilo \textsf{IC-UFAL}.
+As referências bibliográficas foram preparadas no \textsf{Mendeley} e administradas pelo {\large\BibTeX}\ com o estilo \textsf{LaCCAN}.
+O texto utiliza fonte \NomeFonte\ e os elementos matemáticos a família tipográfica \NomeFonteMat, ambas em corpo de 12 pontos.
+% A numeração dos capítulos segue com a família tipográfica \NomeFonteCap.\\ 
+% \vspace{.5cm}
+% \includegraphics[width=.2\textwidth]{../figs/gondor_invertida}
+\end{center}
+
+\end{document}

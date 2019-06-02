@@ -1,0 +1,64 @@
+\mychapter{\textsc{Metodologia}}{chp:metodologia}
+\lhead{\textsc{Metodologia}}
+
+% Breve resumo do capítulo. 
+\lettrine{E}{ste} capítulo descreve a metodologia utilizada neste trabalho, descrevendo suas respectivas etapas.
+
+%\section{\textbf{Metodologia}} 
+
+A metodologia utilizada para a presente pesquisa utiliza um modelo exploratório que consiste em quatro etapas cíclicas: 
+a)~definição da rede, 
+b)~tratamentos de dados da rede; 
+c)~determinação das características estruturais e 
+d)~inspeção visual \citep{de2018exploratory}.
+
+A definição da rede resultou da coleta dos dados realizada no portal da SciELO\footnote{http://static.scielo.org}. 
+Foram  realizados tratamentos desses dados normalizando a padronização os campos da Unidade Federativa (UF). 
+A base foi complementada pela informação da localidade geográfica associando os estados (UF) às regiões do Brasil. 
+%%% ACF Escreva sempre da forma mais simples e direta possível, a seguinte frase poderia ser "Documentos de origem estrangeira foram definidos como ``Exterior''.
+%% Documentos de origem estrangeira foram definidos como ``Exterior''.
+%%% VLR Frase reescrita 
+%%% VLR documentos do Exterior foram excluídos do escopo
+
+Os dados foram coletados no sítio eletrônico da SciELO a partir do endereço \url{http://static.scielo.org/tabs/tabs_bra}. Os dados associam os documentos publicados em coautoria de um autor com sua respectiva instituição de origem por um ID. O conjunto de dados amostral utilizado para esta pesquisa compreende o período entre 2008 à 2017 e os documentos relacionados as Universidades Federais do país.  
+
+Foi utilizada a linguagem de programação \texttt R, possibilitando que o resultado deste trabalho seja coberto ponta a ponta com a mesmo código, facilitando assim a reprodutibilidade desta pesquisa.
+
+O total de documentos indexados coletados da base de dados resultou um montante de 1.302.659 documentos, sendo um total de 112.762 para área de \textit{Health Sciences}, 84.437 para área de \textit{Agricultural Sciences} e 15.278 para \textit{Exact and Earth Sciences}
+
+A produção dos resultados teve por fundamento a teoria dos grafos e na análise de redes sociais, onde buscou a aplicação das métricas de redes complexas, para a compreensão do comportamento das redes de coautoria do presente estudo.
+
+Este trabalho utilizou-se da linguagem \texttt R com o uso dos pacotes \texttt{tidyverse}, \texttt{igraph}, \texttt{ggraph}, \texttt{sna} e \texttt{visNetwork}. A seguir descrevemos as etapas cíclicas proposta por \citep{de2018exploratory} para estudos relacionados ARS.
+
+\section{\textbf{Definição da rede}}
+
+As redes objeto de estudo desta pesquisa é a relação de coautoria existentes nos documentos indexados na base de dados da SciELO, objetivando a criação de um modelo exploratório. Foram definidas as redes de coautoria segregadas pela Unidade Federativa (UF) e Região Geográfica do Brasil para as Universidades Federais do país. Redes de coautoria são classificadas como não-direcionada, ou seja, as ligações existentes entre os vértices independem de uma orientação ou direção.
+
+Os vértices da rede são as Unidades Federativas (UF), agrupadas pelas instituições federais às quais fazem parte da mesma, as arestas as ligações refere-se a ocorrência de coautoria entre as instituições das UF. As arestas são valoradas possuindo pesos pela frequência de ocorrência das coautorias, os vértices são ponderados pelo volume de coautorias, bem como pelos laços, ou seja, as coautorias realizadas entre instituições da mesma UF. %Para este trabalho e por fins topológicos das redes, desconsideramos os pesos para o cálculo das métricas, resultando apenas para inspeção visual das redes geradas.
+
+
+\section{\textbf{Tratamento de dados da rede}}
+
+Nesta etapa foram elaborados alguns tratamentos da rede, tal como limpeza e padronização de alguns dados, de forma mínima e minuciosa, para evitar que a reprodutibilidade reste prejudicada. Buscamos a padronização dos nomes das Unidades Federativas, e a associação de suas respectivas região geográfica.
+
+As Universidades Federais do Brasil foram agrupadas por estados sendo representadas pelo nome no Estado (UF - Unidade Federativa). Foram realizadas rotinas de geração das matrizes e \textit{datasets} necessários aos cálculos das métricas, tal como a plotagem das redes e gráficos.
+
+\section{\textbf{Determinação das características estruturais}}
+
+Conforme \citep{de2018exploratory} a exploração de uma rede por suas métricas que descreve sua caracterização estrutural é uma forma mais concisa e precisa quando comparada a inspeção visual, no entanto as métricas por vezes são abstratas e de difícil interpretação. Por isso, deve-se utilizar ambas abordagens analíticas as métricas estruturais da rede e sua observação gráfica.
+
+Foram escolhidas as métricas básicas do número de vértices e arestas, grau médio do vértice, diâmetro da rede, e distância média, centralidade do grau, centralidade de proximidade, e centralidade de intermediação, que foram aplicadas ao período em análise de 2008 à 2017 para a área de \textit{Health Science}. As métricas aferidas denotam de forma quantitativa o comportamento da colaboração científica com bases nas redes de coautoria geradas.
+
+\section{\textbf{Inspeção visual}}
+
+Uma forma enriquecedora de análise de redes sociais é a observação gráfica, para isso são gerados gráficos das redes para representar suas relações e permitir por análise visual a o conhecimento da dinâmica existente pela disposição dos vértices e arestas.
+
+Primeiramente insta ressaltar que no estudos iniciais e exploratórios da base SciELO foram encontradas diversos tipos de instituições de ensino e pesquisa, e que para o objeto do estudo deste trabalho os escopos das redes foram definidos pelas coautorias existentes entre as Universidades Federais do país em suas respectivas Unidades Federativas (UF). 
+
+A análise das redes de coautoria consistiu em uma perspectiva regional explorando suas propriedades e caraterísticas. Foram definidos a área de \textit{Health Sciences} e o período compreendido entre 2008 à 2017, considerando a rede global que consiste todas as Universidades Federais do Brasil agrupadas pelo Estado (UF - Unidade Federativa) a que correspondem. E outra rede tendo como vértice local (ou focal) a Unidade Federativa Alagoas, de maneira a se observar a dinâmica de interação e evolução dessas redes em um prisma analítico e comparativo das redes de coautoria ao longo do tempo.
+
+Os resultados obtidos (gráficos e numéricos) permitem-nos obter um conhecimento descritivo das interações existentes na relação de coautoria entre as relaçõe de coautorias estudas da base SciELO. No aspecto gráfico as arestas possuem espessuras maior ou menor de acordo com o peso definido pelo número de publicações em coautoria, assim, as UF que possuem interações mais fortes ou mais fracas. 
+
+Os vértices foram definidos de um mesmo tom de cor para representar a região geográfica do país a qual pertence a UF, a espessura do laço do vértice detona também o volume de coautorias realizadas dentro da mesma UF.
+
+\resumocap{Neste Capítulo foram apresentadas as quatros etapas da metodologia utilizada: determinação da rede, tratamento de dados, determinação das características estruturais, inspeção visual. No capítulo seguinte apresentamos as análises e interpretações dos resultados.}

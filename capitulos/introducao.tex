@@ -1,0 +1,83 @@
+\mychapter{\textsc{Introdução}}{chp:introducao}
+\lhead{\textsc{Introdução}}
+
+
+\section{\textbf{Definição do Problema}}\label{sec:def_Problema}
+
+\lettrine{A} colaboração científica é um fenômeno social que tem  por objeto a produção de conhecimento e os cientistas como os principais atores. As redes de coautoria é uma das formas de mensuração e indicação da interação entre esses atores, pelo esforço colaborativo entre pessoas, instituições e países para a geração e publicação de um trabalho científico.
+
+Nos últimos anos vários estudos tem sido realizado para a compreensão deste fenômeno \citep{Maia2008}, buscando entender como ocorre. 
+Avançar nos estudos e no entendimento da colaboração científica no Brasil é fundamental para que tenhamos uma ideia mais clara de como este fenômeno vem acontecendo na comunidade científica brasileira, possibilitando a definição e o direcionamento de políticas científicas mais adequadas \citep{Vanz2010}.
+
+O Conselho Nacional de Desenvolvimento Científico e Tecnológico -- CNPq\footnote{http//www.cnpq.br} é o mantenedor da base de Currículos Lattes\footnote{http://lattes.cnpq.br}, a principal fonte de registro dos trabalhos e publicação científica do país. 
+Entretanto, a plataforma Lattes não vem apresentando avanços significativos, principalmente pela não disponibilização de dados abertos, assim, impossibilitando a realização de pesquisas que possam descrever o comportamento bibliométrico da ciência no país.
+Uma evidência da desatualização do Lattes é a própria plataforma Painel Lattes\footnote{http://estatico.cnpq.br/painelLattes/} que não possui dados atualizados.
+
+A Scientific Electronic Library Online -- SciELO\footnote{http://www.scielo.br} é uma biblioteca eletrônica criada em 1998.
+Ela realiza a indexação de um conjunto de periódicos visando o desenvolvimento de uma metodologia comum para a preparação, armazenamento, disseminação e avaliação de literatura científica em formato eletrônico.
+
+No entanto, apesar dos esforços da SciELO em disponibilizar uma ferramenta para o maior conhecimento de métricas bibliométricas e a observação do comportamento da colaboração científica, sua plataforma SciELO Analytics\footnote{http://analytics.scielo.br} ainda carece de funcionalidades para a visualização de redes de coautoria, considerando o aspecto interinstituicional.
+
+Diante do contexto supra explanado, essa pesquisa visa a proposta de um modelo da avaliação da colaboração científica com base na análise de redes de coautorias inter instituições do Brasil. 
+Buscamos responder precipuamente as seguintes questões:
+\begin{itemize}
+\item Como se caracterizam as redes de coautoria na base SciELO?
+\item Quais as propriedades e métricas que indicam a evolução das redes de coautoria ao longo do tempo?
+\item Como se observa as comunidades de colaboração científica a partir das redes de coautoria?
+\end{itemize}  
+    
+\section{\textbf{Revisão da literatura}}\label{Revisão}
+
+A bibliometria é uma campo de conhecimento multidisciplinar com origem na biblioteconomia e na ciência da informação, que aplica métodos estatísticos e matemáticos para analisar e construir indicadores sobre a dinâmica e evolução da informação científica e tecnológica de determinadas disciplinas, áreas, organizações ou países.
+
+\citep{pritchard1969statistical} descrevem que bibliometria é o tratamento quantitativo das propriedades da escrita científica publicada e do comportamento que lhe é inerente. 
+%%% ACF A frase que segue não faz sentido
+\citep{osareh1996bibliometrics} define a bibliometria como o estudo dos padrões das publicações científicas aplicando análises quantitativas e estatísticas. %Lancaster (1977: 353)% 
+%%% VLR frase rescrita 
+
+Estudos e análises bibliométricas podem ser empregadas a diversas áreas do conhecimentos com abordagens como avaliação da produtividade científica, análise de citações e cocitações, redes de coautoria, análises de fatores de impacto, dentre outros. A bibliometria possui estreitas relações com as áreas de cienciometria (ou cientometria), infometria, webometria, patentometria, e altmetria.
+
+Para \citep{Barabasi2001} estudar redes de coautoria é interessante porque permite determinar como o campo de pesquisa está evoluindo e fazer previsões sobre a direção desse campo e onde os avanços terão maiores probabilidades de ocorrerem. Por outro lado, em outra obra de \citep{barabasi2003everything} reconhecem que em redes de coautoria \textit{(co-authorship network)}, estudos vêm apresentando evoluções significativas, entretanto de maneira muito fragmentada, se concentrando em uma característica da rede por vez. 
+Os autores ressaltam também a complexidade envolvida em virtude da velocidade de crescimento das redes, comparando-as como o comportamento da rede \textit{World Wide Web}, visto que há de se considerar os vários formatos das bases de dados e suas indexações. Fica, assim, configurado o desafio para estudos relacionados a este tema.
+    
+\section{\textbf{Contribuições}}\label{Contribuições}
+  
+Neste trabalho propomos desenvolver um estudo para avaliação da colaboração científica por meio de redes de coautoria, com as seguintes caraterísticas:
+
+\begin{itemize}
+\item Reprodutibilidade com a definição da instituição vértice de referência.
+\item Definição do intervalo temporal em anos para análises comparativas.
+\item Explanar as características e métricas quantitativas das redes pelo aspecto da colaboração científica.
+\end{itemize}
+
+
+\section{\textbf{Objetivo}}\label{objetivo} 
+
+O objetivo desta pesquisa é a proposta da criação de um estudo modelo avaliativo do comportamento das redes de coautoria na base de dados objeto desse estudo, considerando alguns objetivos secundários, são eles:
+
+\begin{itemize}
+\item Avaliação das propriedades e indicadores de redes de coautoria inter instituição (unidades federativas).
+\item Visualização por comunidades definidas pelas regiões geográficas do Brasil.
+\item Caracterização da colaboração científica a partir dos resultados de medidas de centralidade de redes complexas aplicadas a redes de coautoria.
+\end{itemize}
+
+\section{\textbf{Organização da Dissertação}}
+
+Esta dissertação está organizada da seguinte forma:
+
+\begin{itemize}
+%\item No Capítulo \ref{chp:introducao} contextualizamos o problema desta pesquisa, apresentando a importância de análises bibliométricas, em específico redes de coautoria para a avaliação da colaboração científica. 
+
+\item No Capítulo \ref{chp:fundamentacao}, referendamos a fundamentação dos conhecimentos utilizados para a proposta realizada neste trabalho, teoria dos grafos, redes complexas e as medidas de centralidade. 
+
+\item No Capítulo \ref{chp:metodologia}, explanamos a metodologia utilizada, baseada na obra de \citep{de2018exploratory} que consiste em quatro etapas fundamentais: a) definição da rede, b) tratamento de dados da rede, c) características estruturais da rede e d) inspeção visual. 
+
+\item No Capítulo \ref{chp:resultados}, apresentamos os resultados produzidos com suas respectivas análises e interpretações a respeito do uso das medidas de centralidade para avaliação da colaboração científica em redes de coautoria. 
+
+\item No capítulo \ref{chp:conclusoes}, manifestamos as considerações finais, com comentários dos resultados obtidos e a sugestão de trabalhos futuros contextualizando com o problema deste trabalho. 
+\end{itemize}
+
+
+%%% Resumo entre a introdução e fundamentação teórica.
+\resumocap{O capítulo 1, versou sobre a contextualização, motivação e objetivos deste trabalho. O capítulo 2, seguinte, trata da fundamentação teórica utilizada.}
+

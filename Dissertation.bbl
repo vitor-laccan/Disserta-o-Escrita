@@ -1,0 +1,87 @@
+\begin{thebibliography}{xx}
+
+\harvarditem[Barab{\'{a}}si et~al.]{Barab{\'{a}}si, Jeong, N{\'{e}}da, Ravasz,
+  Schubert \harvardand\ Vicsek}{2001}{Barabasi2001}
+Barab{\'{a}}si, A.~L., Jeong, H., N{\'{e}}da, Z., Ravasz, E., Schubert, A.
+  \harvardand\ Vicsek, T.  \harvardyearleft 2001\harvardyearright , `{Evolution
+  of the social network of scientific collaborations}'.
+\newline\harvardurl{https://arxiv.org/pdf/cond-mat/0104162.pdf}
+
+\harvarditem{Barabasi}{2003}{barabasi2003everything}
+Barabasi, A.-L.~L.  \harvardyearleft 2003\harvardyearright , `How everything is
+  connected to everything else and what it means for business, science and
+  everyday life', {\em New York: Plume} .
+
+\harvarditem[De~Nooy et~al.]{De~Nooy, Mrvar \harvardand\
+  Batagelj}{2018}{de2018exploratory}
+De~Nooy, W., Mrvar, A. \harvardand\ Batagelj, V.  \harvardyearleft
+  2018\harvardyearright , {\em Exploratory social network analysis with Pajek},
+  Cambridge University Press.
+
+\harvarditem{Freeman}{1996}{freeman1996some}
+Freeman, L.~C.  \harvardyearleft 1996\harvardyearright , `Some antecedents of
+  social network analysis', {\em Connections} {\bf 19}(1),~39--42.
+
+\harvarditem[Freeman et~al.]{Freeman, Borgatti \harvardand\
+  White}{1991}{freeman1991centrality}
+Freeman, L.~C., Borgatti, S.~P. \harvardand\ White, D.~R.  \harvardyearleft
+  1991\harvardyearright , `Centrality in valued graphs: A measure of
+  betweenness based on network flow', {\em Social networks} {\bf
+  13}(2),~141--154.
+
+\harvarditem{Maia \harvardand\ Caregnato}{2008}{Maia2008}
+Maia, M. D. F.~S. \harvardand\ Caregnato, S.~E.  \harvardyearleft
+  2008\harvardyearright , `{Co-autoria como indicador de redes de
+  colabora{\c{c}}{\~{a}}o cient{\'{i}}fica}', {\em Perspectivas em
+  Ci{\^{e}}ncia da Informa{\c{c}}{\~{a}}o} {\bf 13},~18--31.
+
+\harvarditem{Newman}{2004}{Newman2004}
+Newman, M. E.~J.  \harvardyearleft 2004\harvardyearright , {Coauthorship
+  networks and patterns of scientific collaboration}, Technical report, Center
+  for the Study of Complex Systems and Department of Physics, University of
+  Michigan.
+\newline\harvardurl{www.pnas.orgcgidoi10.1073pnas.0307545100}
+
+\harvarditem{Osareh}{1996}{osareh1996bibliometrics}
+Osareh, F.  \harvardyearleft 1996\harvardyearright , `Bibliometrics, citation
+  analysis and co-citation analysis: A review of literature i', {\em Libri}
+  {\bf 46}(3),~149--158.
+
+\harvarditem{Otte \harvardand\ Rousseau}{2002}{otte2002social}
+Otte, E. \harvardand\ Rousseau, R.  \harvardyearleft 2002\harvardyearright ,
+  `Social network analysis: a powerful strategy, also for the information
+  sciences', {\em Journal of information Science} {\bf 28}(6),~441--453.
+
+\harvarditem{Pritchard et~al.}{1969}{pritchard1969statistical}
+Pritchard, A. et~al.  \harvardyearleft 1969\harvardyearright , `Statistical
+  bibliography or bibliometrics', {\em Journal of documentation} {\bf
+  25}(4),~348--349.
+
+\harvarditem[Silva et~al.]{Silva, Matheus, Parreiras \harvardand\
+  Parreiras}{2006}{Silva2006}
+Silva, A. B. d. O.~e., Matheus, R.~F., Parreiras, F.~S. \harvardand\ Parreiras,
+  T. A.~S.  \harvardyearleft 2006\harvardyearright , `{An{\'{a}}lise de redes
+  sociais como metodologia de apoio para a discuss{\~{a}}o da
+  interdisciplinaridade na ci{\^{e}}ncia da informa{\c{c}}{\~{a}}o}', {\em
+  Ci{\^{e}}ncia da Informa{\c{c}}{\~{a}}o} {\bf 35}(1),~72--93.
+\newline\harvardurl{http://www.scielo.br/scielo.php?script=sci{\_}arttext{\&}pid=S0100-19652006000100009{\&}lng=pt{\&}tlng=pt}
+
+\harvarditem{Sonnenwald \harvardand\ Sonnenwald}{2007}{Sonnenwald}
+Sonnenwald, D.~H. \harvardand\ Sonnenwald, D.~H.  \harvardyearleft
+  2007\harvardyearright , `{Scientific Collaboration}', {\em Annual Review of
+  Information Science and Technology (ARIST)} {\bf 41},~643--681.
+\newline\harvardurl{http://europa.eu.int/comm/}
+
+\harvarditem{Vanz \harvardand\ Stumpf}{2010}{Vanz2010}
+Vanz, S. A. d.~S. \harvardand\ Stumpf, I. R.~C.  \harvardyearleft
+  2010\harvardyearright , `{Colabora{\c{c}}{\~{a}}o cient{\'{i}}fica:
+  revis{\~{a}}o te{\'{o}}rico-conceitual}', {\em Perspectivas em Ci{\^{e}}ncia
+  da Informa{\c{c}}{\~{a}}o} {\bf 15}(2),~42--55.
+\newline\harvardurl{http://www.scielo.br/scielo.php?script=sci{\_}arttext{\&}pid=S1413-99362010000200004{\&}lng=pt{\&}tlng=pt}
+
+\harvarditem{Wasserman \harvardand\ Faust}{1994}{wasserman1994social}
+Wasserman, S. \harvardand\ Faust, K.  \harvardyearleft 1994\harvardyearright ,
+  {\em Social network analysis: Methods and applications}, Vol.~8, Cambridge
+  university press.
+
+\end{thebibliography}
