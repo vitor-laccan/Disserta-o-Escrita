@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Matriz de Coautorias \textit {Agricultural Sciences} (2008-2017)}}{26}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Matriz de Coautorias \textit {Exact and Earth Sciences} (2008-2017)}}{27}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil - 2015 (\textit {Agricultural Sciences})}}{28}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Rede de Coautoria das Universidades Federais de Alagoas - 2015 (\textit {Agricultural Sciences})}}{29}{figure.4.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Rede de Coautoria V\IeC {\'e}rtice Focal Universidade Federal de Alagoas - 2015 (\textit {Agricultural Sciences})}}{29}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Centralidade do Grau (\textit {Health Sciences})}}{31}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Centralidade do Grau (\textit {Agricultural Sciences})}}{31}{figure.4.7}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Centralidade do Grau (\textit {Exact and Earth Sciences})}}{32}{figure.4.8}
@@ -30,9 +30,82 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Agricultural Sciences})}}{43}{figure.4.22}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Exact and Earth Sciences})}}{44}{figure.4.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Redes de Coautoria Universidades Federal do Brasil (\textit {Health Sciences})}}{53}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Redes de Coautoria da Universidade Federal de Alagoas}}{54}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Redes de Coautoria Universidades Federal do Brasil: \IeC {\'A}rea: \textit {Agricultural Sciences}}}{56}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Redes de Coautoria da Universidade Federal de Alagoas - \IeC {\'A}rea \textit {Agricultural Sciences}}}{57}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Redes de Coautoria Universidades Federal do Brasil - \IeC {\'A}rea \textit {Exact and Earth Sciences}}}{59}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Redes de Coautoria da Universidade Federal de Alagoas \IeC {\'A}rea \textit {Exact and Earth Sciences}}}{60}{figure.A.6}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences})- 2008}}{52}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2009}}{53}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2010}}{54}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2011}}{55}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2012}}{56}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2013}}{57}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2014}}{58}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2015}}{59}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2016}}{60}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Health Sciences}) - 2017}}{61}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2008}}{62}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2009}}{63}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2010}}{64}{figure.A.13}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2011}}{65}{figure.A.14}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2012}}{66}{figure.A.15}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2013}}{67}{figure.A.16}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2014}}{68}{figure.A.17}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2015}}{69}{figure.A.18}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2016}}{70}{figure.A.19}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Health Sciences}) - 2017}}{71}{figure.A.20}
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2008}}{72}{figure.A.21}
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2009}}{73}{figure.A.22}
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2010}}{74}{figure.A.23}
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2011}}{75}{figure.A.24}
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2012}}{76}{figure.A.25}
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2013}}{77}{figure.A.26}
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2014}}{78}{figure.A.27}
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2015}}{79}{figure.A.28}
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2016}}{80}{figure.A.29}
+\contentsline {figure}{\numberline {A.30}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2017}}{81}{figure.A.30}
+\contentsline {figure}{\numberline {A.31}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2008}}{82}{figure.A.31}
+\contentsline {figure}{\numberline {A.32}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2009}}{83}{figure.A.32}
+\contentsline {figure}{\numberline {A.33}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2010}}{84}{figure.A.33}
+\contentsline {figure}{\numberline {A.34}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2011}}{85}{figure.A.34}
+\contentsline {figure}{\numberline {A.35}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2012}}{86}{figure.A.35}
+\contentsline {figure}{\numberline {A.36}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2013}}{87}{figure.A.36}
+\contentsline {figure}{\numberline {A.37}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2014}}{88}{figure.A.37}
+\contentsline {figure}{\numberline {A.38}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2015}}{89}{figure.A.38}
+\contentsline {figure}{\numberline {A.39}{\ignorespaces Rede de Coautoria da Universidade Federal de Alagoas (\textit {Agricultural Sciences}) - 2016}}{90}{figure.A.39}
+\contentsline {figure}{\numberline {A.40}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Agricultural Sciences}) - 2017}}{91}{figure.A.40}
+\contentsline {figure}{\numberline {A.41}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2008}}{92}{figure.A.41}
+\contentsline {figure}{\numberline {A.42}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2009}}{93}{figure.A.42}
+\contentsline {figure}{\numberline {A.43}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2010}}{94}{figure.A.43}
+\contentsline {figure}{\numberline {A.44}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2011}}{95}{figure.A.44}
+\contentsline {figure}{\numberline {A.45}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2012}}{96}{figure.A.45}
+\contentsline {figure}{\numberline {A.46}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2013}}{97}{figure.A.46}
+\contentsline {figure}{\numberline {A.47}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2014}}{98}{figure.A.47}
+\contentsline {figure}{\numberline {A.48}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2015}}{99}{figure.A.48}
+\contentsline {figure}{\numberline {A.49}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2016}}{100}{figure.A.49}
+\contentsline {figure}{\numberline {A.50}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2017}}{101}{figure.A.50}
+\contentsline {figure}{\numberline {A.51}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2008}}{102}{figure.A.51}
+\contentsline {figure}{\numberline {A.52}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2009}}{103}{figure.A.52}
+\contentsline {figure}{\numberline {A.53}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2010}}{104}{figure.A.53}
+\contentsline {figure}{\numberline {A.54}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2011}}{105}{figure.A.54}
+\contentsline {figure}{\numberline {A.55}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2012}}{106}{figure.A.55}
+\contentsline {figure}{\numberline {A.56}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2013}}{107}{figure.A.56}
+\contentsline {figure}{\numberline {A.57}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2014}}{108}{figure.A.57}
+\contentsline {figure}{\numberline {A.58}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2015}}{109}{figure.A.58}
+\contentsline {figure}{\numberline {A.59}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2016}}{110}{figure.A.59}
+\contentsline {figure}{\numberline {A.60}{\ignorespaces Rede de Coautoria das Universidades Federais do Brasil (\textit {Exact and Earth Sciences}) - 2017}}{111}{figure.A.60}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Centralidade do Grau (\textit {Health Sciences})}}{112}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Centralidade do Grau (\textit {Agricultural Sciences})}}{113}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Centralidade do Grau (\textit {Exact and Earth Sciences})}}{114}{figure.B.3}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Histograma da Centralidade do Grau (\textit {Health Sciences})}}{115}{figure.B.4}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Histograma da Centralidade do Grau (\textit {Agricultural Sciences})}}{116}{figure.B.5}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Histograma da Centralidade do Grau (\textit {Exact and Earth Sciences})}}{117}{figure.B.6}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Centralidade de Proximidade (\textit {Health Sciences})}}{118}{figure.B.7}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Centralidade de Proximidade (\textit {Agricultural Sciences})}}{119}{figure.B.8}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Centralidade de Proximidade (\textit {Exact and Earth Sciences})}}{120}{figure.B.9}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Health Sciences})}}{121}{figure.B.10}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Agricultural Sciences})}}{122}{figure.B.11}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Exact and Earth Sciences})}}{123}{figure.B.12}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Centralidade de Proximidade (\textit {Health Sciences})}}{124}{figure.B.13}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Centralidade de Proximidade (\textit {Agricultural Sciences})}}{125}{figure.B.14}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Centralidade de Proximidade (\textit {Exact and Earth Sciences})}}{126}{figure.B.15}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Health Sciences})}}{127}{figure.B.16}
+\contentsline {figure}{\numberline {B.17}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Agricultural Sciences})}}{128}{figure.B.17}
+\contentsline {figure}{\numberline {B.18}{\ignorespaces Histograma da Centralidade de Proximidade (\textit {Exact and Earth Sciences})}}{129}{figure.B.18}

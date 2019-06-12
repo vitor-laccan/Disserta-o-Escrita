@@ -57,6 +57,16 @@ Pritchard, A. et~al.  \harvardyearleft 1969\harvardyearright , `Statistical
   bibliography or bibliometrics', {\em Journal of documentation} {\bf
   25}(4),~348--349.
 
+\harvarditem{{R Core Team}}{2013}{Rprog}
+{R Core Team}  \harvardyearleft 2013\harvardyearright , `R: A language and
+  environment for statistical computing'.
+\newline\harvardurl{http://www.R-project.org/}
+
+\harvarditem{{RStudio Team}}{2015}{Rstudio}
+{RStudio Team}  \harvardyearleft 2015\harvardyearright , `Rstudio: Integrated
+  development environment for r'.
+\newline\harvardurl{http://www.rstudio.com/}
+
 \harvarditem[Silva et~al.]{Silva, Matheus, Parreiras \harvardand\
   Parreiras}{2006}{Silva2006}
 Silva, A. B. d. O.~e., Matheus, R.~F., Parreiras, F.~S. \harvardand\ Parreiras,

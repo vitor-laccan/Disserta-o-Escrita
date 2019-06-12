@@ -5,5 +5,11 @@ A level-1 auxiliary file: ./capitulos/metodologia.aux
 A level-1 auxiliary file: ./capitulos/resultados.aux
 A level-1 auxiliary file: ./capitulos/conclusao.aux
 A level-1 auxiliary file: ./capitulos/redes.aux
+A level-1 auxiliary file: ./capitulos/graficos.aux
 The style file: agsm.bst
 Database file #1: ./Bibliography/Ref.bib
+Warning--entry type for "Rprog" isn't style-file defined
+--line 214 of file ./Bibliography/Ref.bib
+Warning--entry type for "Rstudio" isn't style-file defined
+--line 223 of file ./Bibliography/Ref.bib
+(There were 2 warnings)

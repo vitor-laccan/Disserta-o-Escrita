@@ -6,13 +6,13 @@
 
 Para a apresentação dos resultados subdividimos este capítulo em quatro partes, sendo as três primeiras referindo-se a cada uma das áreas pesquisadas, são elas: Características Estruturais das Redes, Medidas de Centralidade, Ranking das Medidas de Centralidade e Discussão dos Resultados.
 
-Na primeira parte apresentamos os resultados das topologias das redes, número de vértice e arestas, características estruturais, densidade, coeficiente de clusterização. É apresentado também as matrizes de coautorias de cada área para todo o período em cada área.
+Na primeira parte apresentamos os resultados das topologias das redes, número de vértices e arestas, características estruturais, densidades, coeficientes de clusterização. É apresentado também as matrizes de coautorias de cada área para todo o período por área.
 
-Na segunda parte, e as medidas de centralidade de cada rede: centralidade do grau (\textit{degree centrality}),  centralidade de proximidade (\textit{closeness centrality}), centralidade de intermediação (\textit{betweeness centrality}) a apresentação dos gráficos comparativos entre o posicionamento da Universidade Federal de Alagoas, quando comparada de forma analítica em relação ao comportamento das medidas médias das Universidades Federais do Brasil, seguindo com as interpretações e análises dos resultados.
+Na segunda parte, são apresentadas os resultados das medidas de centralidade de cada rede: centralidade do grau (\textit{degree centrality}),  centralidade de proximidade (\textit{closeness centrality}), centralidade de intermediação (\textit{betweeness centrality}), com a apresentação dos gráficos comparativos entre o posicionamento da Universidade Federal de Alagoas (vértice focal), comparado de forma analítica em relação ao comportamento das medidas médias das Universidades Federais do Brasil, seguindo com as interpretações e análises dos resultados.
 
 Na terceira parte, é apresentado o ranking dos índices aferidos por cada Unidade Federativa (UF) em cada área do conhecimento para cada medida de centralidade.
 
-Na quarta parte, realizamos a discussão dos resultados; contextualizando os resultados das medidas de centralidade de rede com a colaboração científica, entendendo o posicionamento do vértice focal (Alagoas) e o desempenho de cada UF em cada área.
+Na quarta parte, realizamos a discussão dos resultados; contextualizando os resultados das medidas de centralidade com a colaboração científica, entendendo o posicionamento do vértice focal (Alagoas) e o desempenho de cada UF em cada área.
 
 \section{\textbf{Redes de Coutorias - Base SciELO}}
 
@@ -23,7 +23,7 @@ Neste ponto apresentamos a análise do comportamento e dos resultados das medida
 
 Nesta seção trazemos a tona as características estruturais das redes objeto de estudo, sendo elas determinadas: Rede Brasil, compreendendo as Universidades Federais relacionadas ao respectivo Estado (UF - Unidade Federativa) às quais estão sediadas; para cada área do conhecimento visto acima.
 
-Neste tópico apresentamos a estrutura da Rede Brasil com a finalidade de compreendermos a dimensão e topologia de cada área analisada dentro do período estudado, a base SciELO. Na figura \ref{nos-arestas-todos}, verificamos a projeção do número de vértices e arestas para cada ano. 
+Neste tópico apresentamos a estrutura da Rede Brasil com a finalidade de compreendermos a dimensão e topologia de cada área analisada dentro do período estudado. Na figura \ref{nos-arestas-todos}, verificamos o número de vértices e arestas para cada ano/área.
 
 
 \begin{table}[H]
@@ -51,9 +51,9 @@ Neste tópico apresentamos a estrutura da Rede Brasil com a finalidade de compre
 \end{table}
 
 
-Pela topologia verificamos que as área de \textit{Health Sciences} e \textit{Agricultura Sciences} possuem um maior número de arestas ao logo do tempo quando comparada a \textit{Exact and Earth Sciences}. Destaque para o ano de 2016 em que observamos um pico que eleva o número de arestas no ano de 2016, como visto na tabela \ref{nos-arestas-todos} o que possível neste ano maior número de publicações/indexações foram realizadas, o que resultou o aumento da conectividade da rede, que impactou em sua densidade e também no resultados das medidas de centralidade como veremos a frente. 
+Pela topologia verificamos que as área de \textit{Health Sciences} e \textit{Agricultural Sciences} possuem um maior número de arestas ao logo do tempo quando comparada a \textit{Exact and Earth Sciences}. Destaque para o ano de 2016 em que observamos um pico que eleva o número de arestas no ano de 2016, como visto na tabela \ref{nos-arestas-todos} o que possivelmente neste ano maior número de publicações/indexações foram realizadas, o que resultou o aumento da conectividade da rede, que impactou em sua densidade e também no resultados das medidas de centralidade como veremos a frente. 
 
-Em \textit{Agricultural Sciences} podemos considerar uma normalidade, considerando o número médio de vértices e uma tendência crescente de arestas (coautorias) ao longo do tempo; \textit{Exact and Earth Sciences} possui uma observação curiosa pela oscilação do número de vértices de cada ano, ou seja a desconexão e reconexão destes, mostrando que ao longo do tempo as participações do estados nas coautorias alguns estados deixaram de estar colaborando um a outro.
+Em \textit{Agricultural Sciences} podemos considerar uma normalidade, considerando o número médio de vértices e uma tendência crescente de arestas (coautorias) ao longo do tempo; \textit{Exact and Earth Sciences} possui uma observação curiosa pela oscilação do número de vértices de cada ano, ou seja a desconexão e reconexão destes, mostrando que ao longo do tempo as participações do estados nas coautorias, em outros anos alguns estados deixaram de colaborar e participar da rede.
 
 A tabela \ref{estruturais} abaixo apresenta a densidade e aglomeração (clustering coefficient) para complementar a compreensão da estrutura e dimensão de cada rede, que caracteriza as relações de coautorias existentes em cada área.
 
@@ -66,16 +66,16 @@ A tabela \ref{estruturais} abaixo apresenta a densidade e aglomeração (cluster
 		\multicolumn{4}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Densidade}}                                                                                                                                           & \multicolumn{3}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Aglomeração (Clustering Coefficient)}}                                                                                                          \\ \hline
 		\rowcolor[HTML]{EFEFEF} 
 		Ano  & \begin{tabular}[c]{@{}l@{}}Health \\ Sciences\end{tabular} & \begin{tabular}[c]{@{}l@{}}Agricultural \\ Sciences\end{tabular} & \begin{tabular}[c]{@{}l@{}}Exact and Earth \\ Sciences\end{tabular} & \begin{tabular}[c]{@{}l@{}}Health \\ Sciences\end{tabular} & \begin{tabular}[c]{@{}l@{}}Agricultural \\ Sciences\end{tabular} & \begin{tabular}[c]{@{}l@{}}Exact and Earth \\ Sciences\end{tabular} \\ \hline
-		2008 & 0,121                                                      & 0,155                                                            & 0,15                                                                & 0,523                                                      & 0,364                                                            & 0,355                                                               \\ \hline
+		2008 & 0,121                                                      & 0,155                                                            & 0,150                                                                & 0,523                                                      & 0,364                                                            & 0,355                                                               \\ \hline
 		2009 & 0,165                                                      & 0,152                                                            & 0,145                                                               & 0,625                                                      & 0,415                                                            & 0,398                                                               \\ \hline
-		2010 & 0,23                                                       & 0,258                                                            & 0,197                                                               & 0,726                                                      & 0,557                                                            & 0,506                                                               \\ \hline
+		2010 & 0,230                                                       & 0,258                                                            & 0,197                                                               & 0,726                                                      & 0,557                                                            & 0,506                                                               \\ \hline
 		2011 & 0,235                                                      & 0,214                                                            & 0,174                                                               & 0,744                                                      & 0,543                                                            & 0,356                                                               \\ \hline
 		2012 & 0,238                                                      & 0,271                                                            & 0,159                                                               & 0,773                                                      & 0,601                                                            & 0,391                                                               \\ \hline
 		2013 & 0,242                                                      & 0,271                                                            & 0,186                                                               & 0,772                                                      & 0,619                                                            & 0,429                                                               \\ \hline
 		2014 & 0,265                                                      & 0,252                                                            & 0,138                                                               & 0,745                                                      & 0,619                                                            & 0,395                                                               \\ \hline
 		2015 & 0,238                                                      & 0,258                                                            & 0,167                                                               & 0,803                                                      & 0,608                                                            & 0,339                                                               \\ \hline
 		2016 & 0,418                                                      & 0,282                                                            & 0,165                                                               & 0,943                                                      & 0,642                                                            & 0,489                                                               \\ \hline
-		2017 & 0,266                                                      & 0,313                                                            & 0,17                                                                & 0,798                                                      & 0,682                                                            & 0,422                                                               \\ \hline
+		2017 & 0,266                                                      & 0,313                                                            & 0,170                                                                & 0,798                                                      & 0,682                                                            & 0,422                                                               \\ \hline
 	\end{tabular}
 \caption{Características Estruturais Rede Brasil (2008-2017)}
 \label{estruturais}
@@ -127,7 +127,7 @@ Em \textit{Exact and Earth Sciences} percebemos que pelo volume de coautoria, a 
 
 \subsubsection{Visualização da rede}
 
-Para inspeção visual que coaduna com as análises numéricas, postamos a seguir, por seleção aleatória o ano de 2015 a rede de \textit{Agricultural Sciences} para Rede Brasil e Rede Alagoas, trata-se de uma plotagem exemplo uma vez que estamos trabalhando com 60 redes ao total, e como dito anteriormente nesse texto, o mosaico esta disponível no Apêndice \ref{redes}.
+Para inspeção visual que coaduna com as análises numéricas, postamos a seguir, por seleção aleatória o ano de 2015 a rede de \textit{Agricultural Sciences} para Rede Brasil e Rede Alagoas, trata-se de uma plotagem exemplo uma vez que estamos trabalhando com 60 redes ao total, todas as redes (de cada ano e área) estão disponíveis no Apêndice \ref{redes}.
 
 
 \begin{figure}[H]
@@ -144,7 +144,7 @@ A figura \ref{rede-2015-br} apresenta a rede de coautoria das Universidades Fede
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{Imagens/rede-agr-al-2015.pdf}
-	\caption{Rede de Coautoria das Universidades Federais de Alagoas - 2015 (\textit{Agricultural Sciences})}
+	\caption{Rede de Coautoria Vértice Focal Universidade Federal de Alagoas - 2015 (\textit{Agricultural Sciences})}
 	\label{rede-2015-al}
 \end{figure}
 
@@ -154,7 +154,7 @@ Nesta seção, após a análise das características estruturais das Redes Brasi
 
 Após a análise de cada medida, será apresentado um Ranking por cada área do e o o respectivo índice médio do período (2008-2017) para cada Unidade Federativa (UF). 
 
-Válido ressaltar que foge ao escopo desse trabalho o entendimento de fatores exógenos ou específicos que não seja o do estudo das medidas de centralidade aplicadas a avaliação da colaboração científica, considerando que há várias possibilidades de investigações \textit{drill-down} que possam detalhar conhecimento complementares a respeito das coautorias.
+Válido ressaltar que foge ao escopo desse trabalho o entendimento de fatores exógenos ou específicos que não seja o do estudo das medidas de centralidade aplicadas a avaliação da colaboração científica, considerando que há várias possibilidades de investigações \textit{drill-down} que possam detalhar conhecimento complementares a respeito das coautorias. Os gráficos estão plotados em resolução maior no Apêndice \ref{graficos}.
 
 \subsection{\textbf{Centralidade do Grau}}
 
@@ -192,7 +192,7 @@ A tabela \ref{degree-tab} apresenta os resultados da centralidade do grau para t
 \centering
 \includegraphics[scale=0.4]{Imagens/graf-linha-degree-br-al.pdf}
 \caption{Centralidade do Grau (\textit{Health Sciences})}
-\label{degree-health}
+\label{degree-health-1}
 \end{figure}
 
 \subsubsection{Agricultural Sciences}
@@ -201,7 +201,7 @@ A tabela \ref{degree-tab} apresenta os resultados da centralidade do grau para t
 	\centering
 	\includegraphics[scale=0.4]{Imagens/agricultural/graf-linha-degree-br-al.pdf}
 	\caption{Centralidade do Grau (\textit{Agricultural Sciences})}
-	\label{degree-agri}
+	\label{degree-agri-1}
 \end{figure}
 
 \subsubsection{Exact and Earth Sciences}
@@ -210,14 +210,14 @@ A tabela \ref{degree-tab} apresenta os resultados da centralidade do grau para t
 	\centering
 	\includegraphics[scale=0.4]{Imagens/exact/graf-linha-degree-br-al.pdf}
 	\caption{Centralidade do Grau (\textit{Exact and Earth Sciences})}
-	\label{degree-exact}
+	\label{degree-exact-1}
 \end{figure}
 
-Os gráficos \ref{degree-health}, \ref{degree-agri} e \ref{degree-exact}, apresentam respectivamente as curvas na série temporal (2008-2017) da centralidade do grau da média da Rede Brasil e Alagoas. 
+Os gráficos \ref{degree-health-1}, \ref{degree-agri-1} e \ref{degree-exact-1}, apresentam respectivamente as curvas na série temporal (2008-2017) da centralidade do grau da média da Rede Brasil e Alagoas. 
 
 Na disposição das curvas na área de \textit{Health Sciences}, sendo Rede Brasil (vermelha) e Alagoas (azul), percebemos ao longo do período projeção em direção análoga, e que exceto como aferido no ano de 2009 e 2011, Alagoas esteve com a centralidade do grau maior que a média do Brasil. O que nos levar a inferir que nesse período
 
-O gráfico \ref{degree-agri} mostra que Alagoas andou muito próximo da média do Brasil para \textit{Agricultural Sciences} para este indicador. Destaque para o ano de 2012, em que obteve o maior índice de centralidade na rede, estas razões podem ser investigadas com maior detalhamento sobre as ocorrências das coautorias neste ano.
+O gráfico \ref{degree-agri-1} mostra que Alagoas andou muito próximo da média do Brasil para \textit{Agricultural Sciences} para este indicador. Destaque para o ano de 2012, em que obteve o maior índice de centralidade na rede, estas razões podem ser investigadas com maior detalhamento sobre as ocorrências das coautorias neste ano.
 
 A análise da centralidae para área de \textit{Exact and Earth Sciences} mostra que apesar de não ser uma área de grande volume de artigos indexados na base SciELO, a partir de 2009, Alagoas obteve um índice de centralidade maior que a média da rede. Com um queda considerável do seu índice em 2015, como dito uma análise investigatória poderá responder o que ocorreu neste ano, como a desconexão com outros vértices, não ocorrendo coautorias em pares com outros estados.
 
@@ -227,29 +227,29 @@ A análise da centralidae para área de \textit{Exact and Earth Sciences} mostra
 	\centering
 	\includegraphics[scale=0.5]{Imagens/degree-hist.pdf}
 	\caption{Histograma da Centralidade do Grau (\textit{Health Sciences})}
-	\label{degree-health-hist}
+	\label{degree-health-hist-1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{Imagens/agricultural/degree-hist.pdf}
 	\caption{Histograma da Centralidade do Grau (\textit{Agricultural Sciences})}
-	\label{degree-agri-hist}
+	\label{degree-agri-hist-1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{Imagens/exact/degree-hist.pdf}
 	\caption{Histograma da Centralidade do Grau (\textit{Exact and Earth Sciences})}
-	\label{degree-exact-hist}
+	\label{degree-exact-hist-1}
 \end{figure}
 
 
-O histograma \ref{degree-health-hist} indica a distribuição da medida de centralidade do grau para área de \textit{Health Sciences}, maneira a qual percebemos uma grande frequência no ano de 2016, em virtude da clusterização observada na tabela \ref{estruturais}, corroborando os anos que Alagoas (linha azul) esteve a frente neste marcador quando comparado a média do Brasil.
+O histograma \ref{degree-health-hist-1} indica a distribuição da medida de centralidade do grau para área de \textit{Health Sciences}, maneira a qual percebemos uma grande frequência no ano de 2016, em virtude da clusterização observada na tabela \ref{estruturais}, corroborando os anos que Alagoas (linha azul) esteve a frente neste marcador quando comparado a média do Brasil.
 
-Na figura \ref{degree-agri-hist} observamos um posicionamento muito próximo da média da Rede Brasil (linha vermelha) e Alagoas (linha azul), e que exceto nos primeiro anos de 2008 a 2009 a distribuição concentrou-se na região central, de forma que muitos vértices obtiveram índices parecidos, exceto \textit{outliers} que estão presente em cada ano, dos quais podemos verificar na matriz \ref{matriz-agri} e no ranking apresentando em seção abaixo.
+Na figura \ref{degree-agri-hist-1} observamos um posicionamento muito próximo da média da Rede Brasil (linha vermelha) e Alagoas (linha azul), e que exceto nos primeiro anos de 2008 a 2009 a distribuição concentrou-se na região central, de forma que muitos vértices obtiveram índices parecidos, exceto \textit{outliers} que estão presente em cada ano, dos quais podemos verificar na matriz \ref{matriz-agri} e no ranking apresentando em seção abaixo.
 
-O histograma, figura \ref{degree-exact-hist} da área de \textit{Exact and Earth Sciences} mostra o posicionamento da centralidade do grau de Alagoas acima do Brasil, e uma distribuição dos índices aferidos mais dispersos.
+O histograma, figura \ref{degree-exact-hist-1} da área de \textit{Exact and Earth Sciences} mostra o posicionamento da centralidade do grau de Alagoas acima do Brasil, e uma distribuição dos índices aferidos mais dispersos.
 
 %%% CLOSENESS
 
@@ -268,15 +268,15 @@ A figura \ref{closeness-tab} apresenta os resultados da medida de centralidade d
 		\rowcolor[HTML]{EFEFEF} 
 		\textbf{Rede}   & \textbf{Brasil}                                        & \textbf{Alagoas}                                        & \textbf{Brasil}                                           & \textbf{Alagoas}                                           & \textbf{Brasil}                                             & \textbf{Alagoas}                                            \\ \hline
 		2008            & 0,5303                                                 & 0,5434                                                  & 0,5414                                                    & 0,4528                                                     & 0,4824                                                      & 0,3333                                                      \\ \hline
-		2009            & 0,5789                                                 & 0,5609                                                  & 0,5543                                                    & 0,5455                                                     & 0,4978                                                      & 0,561                                                       \\ \hline
+		2009            & 0,5789                                                 & 0,5609                                                  & 0,5543                                                    & 0,5455                                                     & 0,4978                                                      & 0,5610                                                       \\ \hline
 		2010            & 0,6772                                                 & 0,7419                                                  & 0,6531                                                    & 0,6316                                                     & 0,5435                                                      & 0,5263                                                      \\ \hline
 		2011            & 0,6699                                                 & 0,6216                                                  & 0,6444                                                    & 0,6487                                                     & 0,5216                                                      & 0,5366                                                      \\ \hline
-		2012            & 0,67                                                   & 0,6666                                                  & 0,6663                                                    & 0,6757                                                     & 0,54                                                        & 0,6                                                         \\ \hline
+		2012            & 0,6700                                                   & 0,6666                                                  & 0,6663                                                    & 0,6757                                                     & 0,5400                                                        & 0,6000                                                         \\ \hline
 		2013            & 0,6852                                                 & 0,7058                                                  & 0,6747                                                    & 0,6667                                                     & 0,5544                                                      & 0,5556                                                      \\ \hline
 		2014            & 0,6957                                                 & 0,7812                                                  & 0,6312                                                    & 0,6191                                                     & 0,5033                                                      & 0,5641                                                      \\ \hline
 		2015            & 0,6697                                                 & 0,7812                                                  & 0,6676                                                    & 0,6487                                                     & 0,5306                                                      & 0,5122                                                      \\ \hline
-		2016            & 0,8788                                                 & 0,9615                                                  & 0,678                                                     & 0,625                                                      & 0,5206                                                      & 0,5111                                                      \\ \hline
-		2017            & 0,6993                                                 & 0,8064                                                  & 0,6995                                                    & 0,6857                                                     & 0,5267                                                      & 0,575                                                       \\ \hline
+		2016            & 0,8788                                                 & 0,9615                                                  & 0,6780                                                     & 0,6250                                                      & 0,5206                                                      & 0,5111                                                      \\ \hline
+		2017            & 0,6993                                                 & 0,8064                                                  & 0,6995                                                    & 0,6857                                                     & 0,5267                                                      & 0,5750                                                       \\ \hline
 	\end{tabular}
 \caption{Medidas de Centralidade de Proximidade por Área (2008-2017)}
 \label{closeness-tab}
@@ -289,7 +289,7 @@ A figura \ref{closeness-tab} apresenta os resultados da medida de centralidade d
 	\centering
 	\includegraphics[scale=0.4]{Imagens/graf-linha-closeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Health Sciences})}
-	\label{close-health}
+	\label{close-health-1}
 \end{figure}
 
 \subsubsection{Agricultural Sciences}
@@ -298,7 +298,7 @@ A figura \ref{closeness-tab} apresenta os resultados da medida de centralidade d
 	\centering
 	\includegraphics[scale=0.4]{Imagens/agricultural/graf-linha-closeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Agricultural Sciences})}
-	\label{close-agri}
+	\label{close-agri-1}
 \end{figure}
 
 \subsubsection{Exact and Earth Sciences}
@@ -307,14 +307,14 @@ A figura \ref{closeness-tab} apresenta os resultados da medida de centralidade d
 	\centering
 	\includegraphics[scale=0.4]{Imagens/exact/graf-linha-closeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Exact and Earth Sciences})}
-	\label{close-exact}
+	\label{close-exact-1}
 \end{figure}
 
-As curvas da Rede Brasil (vermelha) e Alagoas (azul), também se projetaram em sentidos análogos, destaque que na área de \textit{Health Sciences} conforme \ref{close-health} que exceto nos anos 2009 e 2011 em todo o período manteve-se acima da média do Brasil. 
+As curvas da Rede Brasil (vermelha) e Alagoas (azul), também se projetaram em sentidos análogos, destaque que na área de \textit{Health Sciences} conforme \ref{close-health-1} que exceto nos anos 2009 e 2011 em todo o período manteve-se acima da média do Brasil. 
 
-Na área de \textit{Agricultural Science} conforme figura \ref{close-agri}, os resultados foram muito próximos, resultando que Alagoas ficou em que alguns anos abaixo da média, como vimos na figura da Matriz de Coautoria \ref{matriz-agri} e o que será corroborado pelo ranking apresentado abaixo, pelo destaque dos estados do Rio Grande do Sul e Rio Grande do Norte em Ciências Agrárias.
+Na área de \textit{Agricultural Science} conforme figura \ref{close-agri-1}, os resultados foram muito próximos, resultando que Alagoas ficou em que alguns anos abaixo da média, como vimos na figura da Matriz de Coautoria \ref{matriz-agri} e o que será corroborado pelo ranking apresentado abaixo, pelo destaque dos estados do Rio Grande do Sul e Rio Grande do Norte em Ciências Agrárias.
 
-Na análise gráfica da centralidade de proximidade da área \textit{Exact and Earth Sciences}, verificamos um baixO índice aferido por Alagoas no ano de 2008 e que a partir de 2009 seguiu em patamar superior a média do Brasil, tendo sido a área de maior destaque para medidade de centralidade da proximidade.
+Na análise gráfica da centralidade de proximidade da área \textit{Exact and Earth Sciences}, verificamos um baixo índice aferido por Alagoas no ano de 2008 e que a partir de 2009 seguiu em patamar superior a média do Brasil, tendo sido a área de maior destaque para medidade de centralidade da proximidade.
 
 
 \subsubsection{Health Sciences}
@@ -323,7 +323,7 @@ Na análise gráfica da centralidade de proximidade da área \textit{Exact and E
 	\centering
 	\includegraphics[scale=0.5]{Imagens/closeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Health Sciences})}
-	\label{hist-health-close}
+	\label{hist-health-close-1}
 \end{figure}
 
 \subsubsection{Agricultural Sciences}
@@ -332,7 +332,7 @@ Na análise gráfica da centralidade de proximidade da área \textit{Exact and E
 	\centering
 	\includegraphics[scale=0.5]{Imagens/agricultural/closeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Agricultural Sciences})}
-	\label{hist-agri-close}
+	\label{hist-agri-close-1}
 \end{figure}
 
 \subsubsection{Exact and Earth Sciences}
@@ -341,14 +341,14 @@ Na análise gráfica da centralidade de proximidade da área \textit{Exact and E
 	\centering
 	\includegraphics[scale=0.5]{Imagens/exact/closeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Exact and Earth Sciences})}
-	\label{hist-exact-close}
+	\label{hist-exact-close-1}
 \end{figure}
 
-As figuras \ref{hist-health-close}, apresenta o histograma de distribuição para a área de \textit{Health Sciences}, o qual podemos destacar ano de 2016, em que as frequências se concentraram em alto índice comparado aos demais anos, e que Alagoas ficou acima da média para essa medida desde o ano de 2013. Resultando que sua proximidade quando comparada a média dos vértices do Brasil é superior.
+As figuras \ref{hist-health-close-1}, apresenta o histograma de distribuição para a área de \textit{Health Sciences}, o qual podemos destacar ano de 2016, em que as frequências se concentraram em alto índice comparado aos demais anos, e que Alagoas ficou acima da média para essa medida desde o ano de 2013. Resultando que sua proximidade quando comparada a média dos vértices do Brasil é superior.
 
-Em \textit{Agricultural Sciences}, visto pelo histograma na figura \ref{hist-agri-close}, a média do Brasil e Alagoas são marcados muito próximos no histograma que possui distribuição em todos anos muito central. De forma que esta medida não apresentou relevante informação nessa área.
+Em \textit{Agricultural Sciences}, visto pelo histograma na figura \ref{hist-agri-close-1}, a média do Brasil e Alagoas são marcados muito próximos no histograma que possui distribuição em todos anos muito central. De forma que esta medida não apresentou relevante informação nessa área.
 
-O histograma \ref{hist-exact-close} apresenta uma distribuição de sua frequência mais espaçada, sendo observador o marcador de Alagoas muito baixo no ano de 2008, muito provável pelos poucos artigos indexados neste ano por autores Alagoanos na área de \textit{Exact and Earth Sciences}, mas que a partir de 2009 a proximidade de Alagoas com a média do Brasil, supera em 2011, 2012, 2014, e 2017,
+O histograma \ref{hist-exact-close-1} apresenta uma distribuição de sua frequência mais espaçada, sendo observador o marcador de Alagoas muito baixo no ano de 2008, muito provável pelos poucos artigos indexados neste ano por autores Alagoanos na área de \textit{Exact and Earth Sciences}, mas que a partir de 2009 a proximidade de Alagoas com a média do Brasil, supera em 2011, 2012, 2014, e 2017,
 
 
 %%% BETWEENESS
@@ -366,16 +366,16 @@ A figura \ref{betweeness-tab} apresenta os resultados da medida de centralidade 
 		\textbf{Ano}    & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Health \\ Sciences\end{tabular}}} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Agricultural \\ Sciences\end{tabular}}} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Exact and \\ Earth Sciences\end{tabular}}} \\ \hline
 		\rowcolor[HTML]{EFEFEF} 
 		\textbf{Rede}   & \textbf{Brasil}                                        & \textbf{Alagoas}                                        & \textbf{Brasil}                                            & \textbf{Alagoas}                                          & \textbf{Brasil}                                             & \textbf{Alagoas}                                            \\ \hline
-		2008            & 0,037                                                  & 0,01                                                    & 0,04                                                       & 0,0047                                                    & 0,0476                                                      & 0,0021                                                      \\ \hline
-		2009            & 0,0396                                                 & 0,01                                                    & 0,0385                                                     & 0,013                                                     & 0,04                                                        & 0,1036                                                      \\ \hline
-		2010            & 0,0388                                                 & 0,04                                                    & 0,04                                                       & 0,0138                                                    & 0,0455                                                      & 0,0251                                                      \\ \hline
-		2011            & 0,04                                                   & 0,01                                                    & 0,037                                                      & 0,0154                                                    & 0,0435                                                      & 0,0153                                                      \\ \hline
-		2012            & 0,038                                                  & 0,02                                                    & 0,0385                                                     & 0,0314                                                    & 0,0417                                                      & 0,1405                                                      \\ \hline
-		2013            & 0,0384                                                 & 0,06                                                    & 0,0385                                                     & 0,0289                                                    & 0,0455                                                      & 0,0424                                                      \\ \hline
-		2014            & 0,0384                                                 & 0,05                                                    & 0,037                                                      & 0,0066                                                    & 0,04                                                        & 0,0549                                                      \\ \hline
-		2015            & 0,037                                                  & 0,04                                                    & 0,0385                                                     & 0,0088                                                    & 0,0455                                                      & 0,0037                                                      \\ \hline
-		2016            & 0,0396                                                 & 0,10                                                     & 0,0385                                                     & 0,0099                                                    & 0,04                                                        & 0,0212                                                      \\ \hline
-		2017            & 0,0369                                                 & 0,04                                                    & 0,04                                                       & 0,0216                                                    & 0,0417                                                      & 0,0274                                                      \\ \hline
+		2008            & 0,0370                                                  & 0,0100                                                    & 0,0400                                                       & 0,0047                                                    & 0,0476                                                      & 0,0021                                                      \\ \hline
+		2009            & 0,0396                                                 & 0,0100                                                    & 0,0385                                                     & 0,0130                                                     & 0,0400                                                        & 0,1036                                                      \\ \hline
+		2010            & 0,0388                                                 & 0,0400                                                    & 0,0400                                                       & 0,0138                                                    & 0,0455                                                      & 0,0251                                                      \\ \hline
+		2011            & 0,0400                                                   & 0,0100                                                    & 0,0370                                                      & 0,0154                                                    & 0,0435                                                      & 0,0153                                                      \\ \hline
+		2012            & 0,0380                                                  & 0,0200                                                    & 0,0385                                                     & 0,0314                                                    & 0,0417                                                      & 0,1405                                                      \\ \hline
+		2013            & 0,0384                                                 & 0,0600                                                    & 0,0385                                                     & 0,0289                                                    & 0,0455                                                      & 0,0424                                                      \\ \hline
+		2014            & 0,0384                                                 & 0,0500                                                    & 0,0370                                                      & 0,0066                                                    & 0,0400                                                        & 0,0549                                                      \\ \hline
+		2015            & 0,0370                                                  & 0,0400                                                    & 0,0385                                                     & 0,0088                                                    & 0,0455                                                      & 0,0037                                                      \\ \hline
+		2016            & 0,0396                                                 & 0,1000                                                     & 0,0385                                                     & 0,0099                                                    & 0,0400                                                        & 0,0212                                                      \\ \hline
+		2017            & 0,0369                                                 & 0,0400                                                    & 0,0400                                                       & 0,0216                                                    & 0,0417                                                      & 0,0274                                                      \\ \hline
 	\end{tabular}
 \caption{Medidas de Centralidade de Intermediação por Área (2008-2017)}
 \label{betweeness-tab}
@@ -387,7 +387,7 @@ A figura \ref{betweeness-tab} apresenta os resultados da medida de centralidade 
 	\centering
 	\includegraphics[scale=0.4]{Imagens/graf-linha-betweeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Health Sciences})}
-	\label{between-health}
+	\label{between-health-1}
 \end{figure}
 
 \subsubsection{Agricultural Sciences}
@@ -396,7 +396,7 @@ A figura \ref{betweeness-tab} apresenta os resultados da medida de centralidade 
 	\centering
 	\includegraphics[scale=0.4]{Imagens/agricultural/graf-linha-betweeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Agricultural Sciences})}
-	\label{between-agri}
+	\label{between-agri-1}
 \end{figure}
 
 \subsubsection{Exact and Earth Sciences}
@@ -405,13 +405,10 @@ A figura \ref{betweeness-tab} apresenta os resultados da medida de centralidade 
 	\centering
 	\includegraphics[scale=0.4]{Imagens/exact/graf-linha-betweeness-br-al.pdf}
 	\caption{Centralidade de Proximidade (\textit{Exact and Earth Sciences})}
-	\label{between-exact}
+	\label{between-exact-1}
 \end{figure}
 
-Na observação dos gráficos da centralidade de intermediação \ref{between-health}, \ref{between-agri}, \ref{between-exact} verificamos que diferentemente do que se observou na centralidade do grau e de proximidade, a relação encontrada entre a Rede Brasil e Alagoas é de uma função matemática não trivial, destacando a sensibilidade dessa medida de centralidade para avaliação da colaboração científica. 
-
-
-
+Na observação dos gráficos da centralidade de intermediação \ref{between-health-1}, \ref{between-agri-1}, \ref{between-exact-1} verificamos que diferentemente do que se observou na centralidade do grau e de proximidade, a relação encontrada entre a Rede Brasil e Alagoas é de uma função matemática não trivial, destacando a sensibilidade dessa medida de centralidade para avaliação da colaboração científica. 
 
 
 \subsubsection{Health Sciences}
@@ -420,7 +417,7 @@ Na observação dos gráficos da centralidade de intermediação \ref{between-he
 	\centering
 	\includegraphics[scale=0.5]{Imagens/betweeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Health Sciences})}
-	%label{c}
+       \label{hist-health-between-1}
 \end{figure}
 
 \subsubsection{Agricultural Sciences}
@@ -429,7 +426,7 @@ Na observação dos gráficos da centralidade de intermediação \ref{between-he
 	\centering
 	\includegraphics[scale=0.5]{Imagens/agricultural/betweeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Agricultural Sciences})}
-	%label{c}
+	\label{hist-agri-between-1}
 \end{figure}
 
 \subsubsection{Exact and Earth Sciences}
@@ -438,16 +435,14 @@ Na observação dos gráficos da centralidade de intermediação \ref{between-he
 	\centering
 	\includegraphics[scale=0.5]{Imagens/exact/betweeness-hist.pdf}
 	\caption{Histograma da Centralidade de Proximidade (\textit{Exact and Earth Sciences})}
-	%label{c}
+    \label{hist-exact-between-1}
 \end{figure}
-
-
 
 %%% TABELA RANKING
 
 \section{\textbf{Ranking das Medidas de Centralidade}}
 
-Nesta seção apresentamos os rankings por Estados (UF) em cada área do conhecimento investigadas neste trabalho. Este ranking tem por objetivo apontar o posicionamento de Alagoas frente a rede Brasil, bem como, por oportuno, mostrar os melhores e piores estados em desempenho para cada medida de centralidade da rede. 
+Nesta seção apresentamos os rankings por Estados (UF) em cada área do conhecimento investigadas neste trabalho. Este ranking tem por objetivo apontar o posicionamento de Alagoas frente a rede Brasil, bem como, por oportuno, mostrar os melhores e piores estados em desempenho para cada medida de centralidade da rede. Os índices foram aferidos pela média da UF em todo o período compreendido entre 2008-2017.
 
 \subsubsection{Ranking: \textit{Health Sciences}}
 
@@ -576,11 +571,28 @@ Nesta seção apresentamos os rankings por Estados (UF) em cada área do conheci
 
 \section{\textbf{Discussão dos Resultados}}
 
-Esta seção tem a por objetivo a discussão dos resultados obtidos por este trabalho, os estudo de redes de coautorias por medidas de centralidade de redes complexas, e a contextualização destes de ao comportamento da colaboração científica. A metodologia aplica permitiu a compreensão das características estruturais das redes, e a determinação destas para os estudos exploratórios.
+Esta seção tem a por objetivo a discussão dos resultados obtidos neste trabalho, os estudo de redes de coautorias por medidas de centralidade de redes complexas, e a contextualização destes ao comportamento da colaboração científica. A metodologia aplicada permitiu a compreensão das características estruturais das redes, e a determinação destas para os estudos exploratórios.
 
 Utilizando o vértice focal Alagoas, podemos comparar nas três áreas do conhecimento selecionadas para esse trabalho, o estudo das três medidas de centralidade, elencadas por \citep{freeman1991centrality} como essenciais ao estudo de redes.
 
-Numérica e graficamente percebemos que para todas as áreas o comportamento a medida da centralidade de grau e de proximidade para o vértice amostral utilizado e a média parâmetro de estudo que de uma forma amplificada possuem uma relação de uma correlação, que seja em anos positiva ou negativa, o que não se observa para a centralidade de intermediação que em todas as áreas apresentou resultados  
+Numérica e graficamente percebemos que para todas as áreas o comportamento a medida da centralidade de grau e de proximidade para o vértice amostral utilizado e a média parâmetro de estudo, em que estas possuem relações de correlações, quer seja positiva ou negativa, forte ou fraca para cada período (ano) em análise; o que não se observa para a centralidade de intermediação que em todas as áreas apresentou resultados \textit{sui generis} indicando assim, uma sensibilidade desta medida.
+
+%Dentro dos conceitos e propriedades das medidas de centralidade de redes, criamos a seguinte contextualização para a melhor interpretação em redes de coautoria.
+
+%\begin{itemize}
+%	\item \textbf{Centralidade do Grau:} \\
+%	“Um nó importante está conectado com muitos nós.” \\
+%	"Um coautor importante está conectado a muitos coautores.”
+	
+%	\item \textbf{Centralidade de Proximidade:} \\
+%	“Um nó importante faz parte de muitos caminhos". \\
+%	"Um coautor importante faz parte de muitos caminhos.” 	
+	
+%	\item \textbf{Centralidade de Intermediação:} \\
+%	“Um nó importante está próximo dos outros nós.” \\
+%	"Um coautor importante está próximo dos outros coautores.”
+	
+%\end{itemize}
 
 As medidas de centralidade utilizadas neste trabalhou permitiu a construção de rankings por área, indicando assim os índices aferidos pelos estados para o período de 2008-2017, possibilitando o conhecimento da colaboração científica a partir desses indicadores na base de dados e nas áreas estudadas.
 
@@ -588,4 +600,6 @@ Na área de \textit{Health Sciences} verificamos que conforme o ranking na figur
 
 Em \textit{Agricultural Sciences} o destaque é para os estados do Rio Grande do Norte, Minas Gerais e Rio Grande do Sul (conforme ranking \ref{rank-agri}); tendo Alagoas assumido respectivamente as posições de décimo terceiro para centralidade do grau e de proximidade; décimo sexto para intermediação. 
 
+Salientamos que outros estudos exploratórios podem realizar detalhamentos a respeito de comunidades e cliques existentes na rede, a fim de encontrar padrões de relacionamentos interinstitucionais. 
 
+Neste trabalho, a análise proposta traz à tona um conhecimento até então desconhecido, a avaliação da colaboração científica pelas redes de coautoria no período de 2008 à 2017, base SciELO das áreas estudadas. E que as medidas com suas respectivas propriedades podem subsidiar estudos investigativos e exploratórios para a avaliação de outras redes, e fatores que possam influenciar o comportamento delas.

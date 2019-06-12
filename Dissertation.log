@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.1.3)  2 JUN 2019 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.1.3)  11 JUN 2019 20:09
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1982,7 +1982,11 @@ Package hyperref Info: Option `pdftoolbar' set `true' on input line 73.
 
 LaTeX Warning: Label `matriz-uf-agri' multiply defined.
 
-) (capitulos/conclusao.aux) (capitulos/redes.aux))
+) (capitulos/conclusao.aux) (capitulos/redes.aux
+
+LaTeX Warning: Label `Rede de Coautoria - UF EXACT AL 2012' multiply defined.
+
+) (capitulos/graficos.aux))
 \openout1 = `Dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -1994,8 +1998,7 @@ LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 92.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 92
 .
-
-(D:\MikTex\tex\latex\psnfss\omspzccm.fd
+ (D:\MikTex\tex\latex\psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 92.
@@ -2215,7 +2218,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Imagens/IC.pdf, id=166, 597.50786pt x 845.04686pt>
+<Imagens/IC.pdf, id=182, 597.50786pt x 845.04686pt>
 File: Imagens/IC.pdf Graphic file (type pdf)
 <use Imagens/IC.pdf>
 Package pdftex.def Info: Imagens/IC.pdf  used on input line 96.
@@ -2278,27 +2281,201 @@ LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <17.28> not available
 
 ] [3
 
-] (Dissertation.lof)
+] (Dissertation.lof [4
+
+]
+Overfull \hbox (1.19994pt too wide) detected at line 81
+ \T1/futs/m/n/12 100
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 82
+ \T1/futs/m/n/12 101
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 83
+ \T1/futs/m/n/12 102
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 84
+ \T1/futs/m/n/12 103
+ []
+
+[5]
+Overfull \hbox (1.19994pt too wide) detected at line 85
+ \T1/futs/m/n/12 104
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 86
+ \T1/futs/m/n/12 105
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 87
+ \T1/futs/m/n/12 106
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 88
+ \T1/futs/m/n/12 107
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 89
+ \T1/futs/m/n/12 108
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 90
+ \T1/futs/m/n/12 109
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 91
+ \T1/futs/m/n/12 110
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 92
+ \T1/futs/m/n/12 111
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 94
+ \T1/futs/m/n/12 112
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 95
+ \T1/futs/m/n/12 113
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 96
+ \T1/futs/m/n/12 114
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 97
+ \T1/futs/m/n/12 115
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 98
+ \T1/futs/m/n/12 116
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 99
+ \T1/futs/m/n/12 117
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 100
+ \T1/futs/m/n/12 118
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 101
+ \T1/futs/m/n/12 119
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 102
+ \T1/futs/m/n/12 120
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 103
+ \T1/futs/m/n/12 121
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 104
+ \T1/futs/m/n/12 122
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 105
+ \T1/futs/m/n/12 123
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 106
+ \T1/futs/m/n/12 124
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 107
+ \T1/futs/m/n/12 125
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 108
+ \T1/futs/m/n/12 126
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 109
+ \T1/futs/m/n/12 127
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 110
+ \T1/futs/m/n/12 128
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 111
+ \T1/futs/m/n/12 129
+ []
+
+)
 \tf@lof=\write8
 \openout8 = `Dissertation.lof'.
 
- [4
-
-] (Dissertation.lot)
+ [6] (Dissertation.lot)
 \tf@lot=\write9
 \openout9 = `Dissertation.lot'.
 
- [5
+ [7
 
-]
-(Dissertation.toc
+] (Dissertation.toc
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <12> not available
 (Font)              Font shape `T1/futs/b/sc' tried instead on input line 5.
+
+Overfull \hbox (2.17195pt too wide) detected at line 67
+ \T1/futs/b/n/12 112
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 68
+ \T1/futs/m/n/12 112
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 76
+ \T1/futs/m/n/12 118
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 84
+ \T1/futs/m/n/12 124
+ []
+
+
+Overfull \hbox (2.17195pt too wide) detected at line 92
+ \T1/futs/b/n/12 130
+ []
+
 )
 \tf@toc=\write10
 \openout10 = `Dissertation.toc'.
 
- [6
+ [8
 
 ]
 :<+ ./capitulos/introducao.tex
@@ -2359,7 +2536,7 @@ Package lettrine.sty Info: Targeted height = 24.05446pt
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/intra-grafo.pdf): PDF inclusion: f
 ound PDF version <2.0>, but at most version <1.5> allowed
-<Imagens/intra-grafo.pdf, id=416, 183.68625pt x 119.69719pt>
+<Imagens/intra-grafo.pdf, id=608, 183.68625pt x 119.69719pt>
 File: Imagens/intra-grafo.pdf Graphic file (type pdf)
 <use Imagens/intra-grafo.pdf>
 Package pdftex.def Info: Imagens/intra-grafo.pdf  used on input line 22.
@@ -2368,7 +2545,7 @@ Package pdftex.def Info: Imagens/intra-grafo.pdf  used on input line 22.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/inter-grafo.pdf): PDF inclusion: f
 ound PDF version <2.0>, but at most version <1.5> allowed
-<Imagens/inter-grafo.pdf, id=417, 195.73125pt x 177.66376pt>
+<Imagens/inter-grafo.pdf, id=609, 195.73125pt x 177.66376pt>
 File: Imagens/inter-grafo.pdf Graphic file (type pdf)
 <use Imagens/inter-grafo.pdf>
 Package pdftex.def Info: Imagens/inter-grafo.pdf  used on input line 29.
@@ -2377,7 +2554,7 @@ Package pdftex.def Info: Imagens/inter-grafo.pdf  used on input line 29.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-newman.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-newman.pdf, id=426, 347.04657pt x 378.66469pt>
+<Imagens/rede-newman.pdf, id=618, 347.04657pt x 378.66469pt>
 File: Imagens/rede-newman.pdf Graphic file (type pdf)
 <use Imagens/rede-newman.pdf>
 Package pdftex.def Info: Imagens/rede-newman.pdf  used on input line 45.
@@ -2387,7 +2564,7 @@ e-newman.pdf>] [16]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/Centrality.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/Centrality.pdf, id=462, 845.827pt x 313.17pt>
+<Imagens/Centrality.pdf, id=655, 845.827pt x 313.17pt>
 File: Imagens/Centrality.pdf Graphic file (type pdf)
 <use Imagens/Centrality.pdf>
 Package pdftex.def Info: Imagens/Centrality.pdf  used on input line 121.
@@ -2431,7 +2608,7 @@ Overfull \hbox (16.93924pt too wide) in paragraph at lines 62--80
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/health/matriz-uf.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/health/matriz-uf.pdf, id=526, 842.73145pt x 513.43117pt>
+<Imagens/health/matriz-uf.pdf, id=724, 842.73145pt x 513.43117pt>
 File: Imagens/health/matriz-uf.pdf Graphic file (type pdf)
 <use Imagens/health/matriz-uf.pdf>
 Package pdftex.def Info: Imagens/health/matriz-uf.pdf  used on input line 94.
@@ -2440,7 +2617,7 @@ Package pdftex.def Info: Imagens/health/matriz-uf.pdf  used on input line 94.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/matriz-uf.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/agricultural/matriz-uf.pdf, id=532, 842.075pt x 527.18355pt>
+<Imagens/agricultural/matriz-uf.pdf, id=730, 842.075pt x 527.18355pt>
 File: Imagens/agricultural/matriz-uf.pdf Graphic file (type pdf)
 <use Imagens/agricultural/matriz-uf.pdf>
 Package pdftex.def Info: Imagens/agricultural/matriz-uf.pdf  used on input line
@@ -2450,7 +2627,7 @@ Package pdftex.def Info: Imagens/agricultural/matriz-uf.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/matriz-uf.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/matriz-uf.pdf, id=540, 845.98456pt x 578.86864pt>
+<Imagens/exact/matriz-uf.pdf, id=738, 845.98456pt x 578.86864pt>
 File: Imagens/exact/matriz-uf.pdf Graphic file (type pdf)
 <use Imagens/exact/matriz-uf.pdf>
 Package pdftex.def Info: Imagens/exact/matriz-uf.pdf  used on input line 120.
@@ -2459,7 +2636,7 @@ Package pdftex.def Info: Imagens/exact/matriz-uf.pdf  used on input line 120.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2015.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2015.pdf, id=549, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2015.pdf, id=747, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2015.pdf>
 Package pdftex.def Info: Imagens/rede-agr-br-2015.pdf  used on input line 135.
@@ -2468,7 +2645,7 @@ Package pdftex.def Info: Imagens/rede-agr-br-2015.pdf  used on input line 135.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-al-2015.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-al-2015.pdf, id=560, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-al-2015.pdf, id=759, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-al-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-al-2015.pdf>
 Package pdftex.def Info: Imagens/rede-agr-al-2015.pdf  used on input line 146.
@@ -2477,7 +2654,7 @@ Package pdftex.def Info: Imagens/rede-agr-al-2015.pdf  used on input line 146.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/graf-linha-degree-br-al.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/graf-linha-degree-br-al.pdf, id=577, 794.17603pt x 595.63226pt>
+<Imagens/graf-linha-degree-br-al.pdf, id=776, 794.17603pt x 595.63226pt>
 File: Imagens/graf-linha-degree-br-al.pdf Graphic file (type pdf)
 <use Imagens/graf-linha-degree-br-al.pdf>
 Package pdftex.def Info: Imagens/graf-linha-degree-br-al.pdf  used on input lin
@@ -2488,7 +2665,7 @@ e 193.
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/graf-linha-degree-br-
 al.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Imagens/agricultural/graf-linha-degree-br-al.pdf, id=582, 794.17603pt x 595.63
+<Imagens/agricultural/graf-linha-degree-br-al.pdf, id=781, 794.17603pt x 595.63
 226pt>
 File: Imagens/agricultural/graf-linha-degree-br-al.pdf Graphic file (type pdf)
 <use Imagens/agricultural/graf-linha-degree-br-al.pdf>
@@ -2499,7 +2676,7 @@ Package pdftex.def Info: Imagens/agricultural/graf-linha-degree-br-al.pdf  used
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/graf-linha-degree-br-al.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/graf-linha-degree-br-al.pdf, id=583, 794.17603pt x 595.63226pt>
+<Imagens/exact/graf-linha-degree-br-al.pdf, id=782, 794.17603pt x 595.63226pt>
 File: Imagens/exact/graf-linha-degree-br-al.pdf Graphic file (type pdf)
 <use Imagens/exact/graf-linha-degree-br-al.pdf>
 Package pdftex.def Info: Imagens/exact/graf-linha-degree-br-al.pdf  used on inp
@@ -2510,7 +2687,7 @@ degree-br-al.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/degree-hist.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/degree-hist.pdf, id=601, 794.17603pt x 595.63226pt>
+<Imagens/degree-hist.pdf, id=800, 794.17603pt x 595.63226pt>
 File: Imagens/degree-hist.pdf Graphic file (type pdf)
 <use Imagens/degree-hist.pdf>
 Package pdftex.def Info: Imagens/degree-hist.pdf  used on input line 228.
@@ -2519,7 +2696,7 @@ Package pdftex.def Info: Imagens/degree-hist.pdf  used on input line 228.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/degree-hist.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/agricultural/degree-hist.pdf, id=610, 794.17603pt x 595.63226pt>
+<Imagens/agricultural/degree-hist.pdf, id=809, 794.17603pt x 595.63226pt>
 File: Imagens/agricultural/degree-hist.pdf Graphic file (type pdf)
 <use Imagens/agricultural/degree-hist.pdf>
 Package pdftex.def Info: Imagens/agricultural/degree-hist.pdf  used on input li
@@ -2529,7 +2706,7 @@ ne 235.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/degree-hist.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/degree-hist.pdf, id=611, 794.17603pt x 595.63226pt>
+<Imagens/exact/degree-hist.pdf, id=810, 794.17603pt x 595.63226pt>
 File: Imagens/exact/degree-hist.pdf Graphic file (type pdf)
 <use Imagens/exact/degree-hist.pdf>
 Package pdftex.def Info: Imagens/exact/degree-hist.pdf  used on input line 242.
@@ -2540,7 +2717,7 @@ Package pdftex.def Info: Imagens/exact/degree-hist.pdf  used on input line 242.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/graf-linha-closeness-br-al.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/graf-linha-closeness-br-al.pdf, id=636, 794.17603pt x 595.63226pt>
+<Imagens/graf-linha-closeness-br-al.pdf, id=836, 794.17603pt x 595.63226pt>
 File: Imagens/graf-linha-closeness-br-al.pdf Graphic file (type pdf)
 <use Imagens/graf-linha-closeness-br-al.pdf>
 Package pdftex.def Info: Imagens/graf-linha-closeness-br-al.pdf  used on input 
@@ -2551,7 +2728,7 @@ line 290.
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/graf-linha-closeness-
 br-al.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<Imagens/agricultural/graf-linha-closeness-br-al.pdf, id=637, 794.17603pt x 595
+<Imagens/agricultural/graf-linha-closeness-br-al.pdf, id=837, 794.17603pt x 595
 .63226pt>
 File: Imagens/agricultural/graf-linha-closeness-br-al.pdf Graphic file (type pd
 f)
@@ -2563,7 +2740,7 @@ sed on input line 299.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/graf-linha-closeness-br-al.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/graf-linha-closeness-br-al.pdf, id=648, 794.17603pt x 595.63226p
+<Imagens/exact/graf-linha-closeness-br-al.pdf, id=847, 794.17603pt x 595.63226p
 t>
 File: Imagens/exact/graf-linha-closeness-br-al.pdf Graphic file (type pdf)
 <use Imagens/exact/graf-linha-closeness-br-al.pdf>
@@ -2575,7 +2752,7 @@ af-linha-closeness-br-al.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/closeness-hist.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/closeness-hist.pdf, id=664, 794.17603pt x 595.63226pt>
+<Imagens/closeness-hist.pdf, id=863, 794.17603pt x 595.63226pt>
 File: Imagens/closeness-hist.pdf Graphic file (type pdf)
 <use Imagens/closeness-hist.pdf>
 Package pdftex.def Info: Imagens/closeness-hist.pdf  used on input line 324.
@@ -2584,7 +2761,7 @@ Package pdftex.def Info: Imagens/closeness-hist.pdf  used on input line 324.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/closeness-hist.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/agricultural/closeness-hist.pdf, id=665, 794.17603pt x 595.63226pt>
+<Imagens/agricultural/closeness-hist.pdf, id=864, 794.17603pt x 595.63226pt>
 File: Imagens/agricultural/closeness-hist.pdf Graphic file (type pdf)
 <use Imagens/agricultural/closeness-hist.pdf>
 Package pdftex.def Info: Imagens/agricultural/closeness-hist.pdf  used on input
@@ -2594,7 +2771,7 @@ Package pdftex.def Info: Imagens/agricultural/closeness-hist.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/closeness-hist.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/closeness-hist.pdf, id=674, 794.17603pt x 595.63226pt>
+<Imagens/exact/closeness-hist.pdf, id=873, 794.17603pt x 595.63226pt>
 File: Imagens/exact/closeness-hist.pdf Graphic file (type pdf)
 <use Imagens/exact/closeness-hist.pdf>
 Package pdftex.def Info: Imagens/exact/closeness-hist.pdf  used on input line 3
@@ -2605,7 +2782,7 @@ Package pdftex.def Info: Imagens/exact/closeness-hist.pdf  used on input line 3
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/graf-linha-betweeness-br-al.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/graf-linha-betweeness-br-al.pdf, id=695, 794.17603pt x 595.63226pt>
+<Imagens/graf-linha-betweeness-br-al.pdf, id=895, 794.17603pt x 595.63226pt>
 File: Imagens/graf-linha-betweeness-br-al.pdf Graphic file (type pdf)
 <use Imagens/graf-linha-betweeness-br-al.pdf>
 Package pdftex.def Info: Imagens/graf-linha-betweeness-br-al.pdf  used on input
@@ -2616,7 +2793,7 @@ Package pdftex.def Info: Imagens/graf-linha-betweeness-br-al.pdf  used on input
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/graf-linha-betweeness
 -br-al.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<Imagens/agricultural/graf-linha-betweeness-br-al.pdf, id=696, 794.17603pt x 59
+<Imagens/agricultural/graf-linha-betweeness-br-al.pdf, id=896, 794.17603pt x 59
 5.63226pt>
 File: Imagens/agricultural/graf-linha-betweeness-br-al.pdf Graphic file (type p
 df)
@@ -2629,7 +2806,7 @@ used on input line 397.
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/graf-linha-betweeness-br-al.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Imagens/exact/graf-linha-betweeness-br-al.pdf, id=705, 794.17603pt x 595.63226
+<Imagens/exact/graf-linha-betweeness-br-al.pdf, id=905, 794.17603pt x 595.63226
 pt>
 File: Imagens/exact/graf-linha-betweeness-br-al.pdf Graphic file (type pdf)
 <use Imagens/exact/graf-linha-betweeness-br-al.pdf>
@@ -2641,34 +2818,34 @@ raf-linha-betweeness-br-al.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/betweeness-hist.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/betweeness-hist.pdf, id=722, 794.17603pt x 595.63226pt>
+<Imagens/betweeness-hist.pdf, id=921, 794.17603pt x 595.63226pt>
 File: Imagens/betweeness-hist.pdf Graphic file (type pdf)
 <use Imagens/betweeness-hist.pdf>
-Package pdftex.def Info: Imagens/betweeness-hist.pdf  used on input line 421.
+Package pdftex.def Info: Imagens/betweeness-hist.pdf  used on input line 418.
 (pdftex.def)             Requested size: 397.08704pt x 297.8154pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/agricultural/betweeness-hist.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/agricultural/betweeness-hist.pdf, id=723, 794.17603pt x 595.63226pt>
+<Imagens/agricultural/betweeness-hist.pdf, id=922, 794.17603pt x 595.63226pt>
 File: Imagens/agricultural/betweeness-hist.pdf Graphic file (type pdf)
 <use Imagens/agricultural/betweeness-hist.pdf>
 Package pdftex.def Info: Imagens/agricultural/betweeness-hist.pdf  used on inpu
-t line 430.
+t line 427.
 (pdftex.def)             Requested size: 397.08704pt x 297.8154pt.
 [42 <./Imagens/betweeness-hist.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/exact/betweeness-hist.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/exact/betweeness-hist.pdf, id=733, 794.17603pt x 595.63226pt>
+<Imagens/exact/betweeness-hist.pdf, id=932, 794.17603pt x 595.63226pt>
 File: Imagens/exact/betweeness-hist.pdf Graphic file (type pdf)
 <use Imagens/exact/betweeness-hist.pdf>
 Package pdftex.def Info: Imagens/exact/betweeness-hist.pdf  used on input line 
-439.
+436.
 (pdftex.def)             Requested size: 397.08704pt x 297.8154pt.
 [43 <./Imagens/agricultural/betweeness-hist.pdf>]
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 452.
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 447.
  [44 <./Imagens/exact/betweeness-hist.pdf>] [45] [46] [47]) [48]
 :<-
 :<+ ./capitulos/conclusao.tex
@@ -2695,675 +2872,863 @@ Ap\^endice A.
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2008.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2008.pdf, id=786, 741.49826pt x 595.28801pt>
+<Imagens/rede-2008.pdf, id=985, 741.49826pt x 595.28801pt>
 File: Imagens/rede-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-2008.pdf>
-Package pdftex.def Info: Imagens/rede-2008.pdf  used on input line 14.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2009.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2009.pdf, id=787, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2009.pdf Graphic file (type pdf)
-<use Imagens/rede-2009.pdf>
-Package pdftex.def Info: Imagens/rede-2009.pdf  used on input line 14.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2010.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2010.pdf, id=788, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2010.pdf Graphic file (type pdf)
-<use Imagens/rede-2010.pdf>
-Package pdftex.def Info: Imagens/rede-2010.pdf  used on input line 15.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2011.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2011.pdf, id=789, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2011.pdf Graphic file (type pdf)
-<use Imagens/rede-2011.pdf>
-Package pdftex.def Info: Imagens/rede-2011.pdf  used on input line 17.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2012.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2012.pdf, id=790, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2012.pdf Graphic file (type pdf)
-<use Imagens/rede-2012.pdf>
-Package pdftex.def Info: Imagens/rede-2012.pdf  used on input line 18.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2013.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2013.pdf, id=791, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2013.pdf Graphic file (type pdf)
-<use Imagens/rede-2013.pdf>
-Package pdftex.def Info: Imagens/rede-2013.pdf  used on input line 18.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2014.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2014.pdf, id=792, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2014.pdf Graphic file (type pdf)
-<use Imagens/rede-2014.pdf>
-Package pdftex.def Info: Imagens/rede-2014.pdf  used on input line 20.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2015.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2015.pdf, id=793, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2015.pdf Graphic file (type pdf)
-<use Imagens/rede-2015.pdf>
-Package pdftex.def Info: Imagens/rede-2015.pdf  used on input line 21.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2016.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2016.pdf, id=794, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2016.pdf Graphic file (type pdf)
-<use Imagens/rede-2016.pdf>
-Package pdftex.def Info: Imagens/rede-2016.pdf  used on input line 22.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2017.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-2017.pdf, id=795, 741.49826pt x 595.28801pt>
-File: Imagens/rede-2017.pdf Graphic file (type pdf)
-<use Imagens/rede-2017.pdf>
-Package pdftex.def Info: Imagens/rede-2017.pdf  used on input line 23.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-Overfull \hbox (58.77052pt too wide) in paragraph at lines 13--26
-[][][] 
- []
-
+Package pdftex.def Info: Imagens/rede-2008.pdf  used on input line 18.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
 [51
 
 
 
 
-] [52]
-Overfull \vbox (9.44646pt too high) has occurred while \output is active []
+]
 
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2009.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2009.pdf, id=991, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2009.pdf Graphic file (type pdf)
+<use Imagens/rede-2009.pdf>
+Package pdftex.def Info: Imagens/rede-2009.pdf  used on input line 25.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[52 <./Imagens/rede-2008.pdf>]
 
-[53 <./Imagens/rede-2008.pdf> <./Imagens/rede-2009.pdf> <./Imagens/rede-2010.pd
-f> <./Imagens/rede-2011.pdf> <./Imagens/rede-2012.pdf> <./Imagens/rede-2013.pdf
-> <./Imagens/rede-2014.pdf> <./Imagens/rede-2015.pdf> <./Imagens/rede-2016.pdf>
- <./Imagens/rede-2017.pdf>]
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2010.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2010.pdf, id=1002, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2010.pdf Graphic file (type pdf)
+<use Imagens/rede-2010.pdf>
+Package pdftex.def Info: Imagens/rede-2010.pdf  used on input line 32.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[53 <./Imagens/rede-2009.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2011.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2011.pdf, id=1012, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2011.pdf Graphic file (type pdf)
+<use Imagens/rede-2011.pdf>
+Package pdftex.def Info: Imagens/rede-2011.pdf  used on input line 39.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[54 <./Imagens/rede-2010.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2012.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2012.pdf, id=1022, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2012.pdf Graphic file (type pdf)
+<use Imagens/rede-2012.pdf>
+Package pdftex.def Info: Imagens/rede-2012.pdf  used on input line 47.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[55 <./Imagens/rede-2011.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2013.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2013.pdf, id=1032, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2013.pdf Graphic file (type pdf)
+<use Imagens/rede-2013.pdf>
+Package pdftex.def Info: Imagens/rede-2013.pdf  used on input line 54.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[56 <./Imagens/rede-2012.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2014.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2014.pdf, id=1042, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2014.pdf Graphic file (type pdf)
+<use Imagens/rede-2014.pdf>
+Package pdftex.def Info: Imagens/rede-2014.pdf  used on input line 61.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[57 <./Imagens/rede-2013.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2015.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2015.pdf, id=1053, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2015.pdf Graphic file (type pdf)
+<use Imagens/rede-2015.pdf>
+Package pdftex.def Info: Imagens/rede-2015.pdf  used on input line 69.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[58 <./Imagens/rede-2014.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2016.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2016.pdf, id=1063, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2016.pdf Graphic file (type pdf)
+<use Imagens/rede-2016.pdf>
+Package pdftex.def Info: Imagens/rede-2016.pdf  used on input line 76.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[59 <./Imagens/rede-2015.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Imagens/rede-2017.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Imagens/rede-2017.pdf, id=1073, 741.49826pt x 595.28801pt>
+File: Imagens/rede-2017.pdf Graphic file (type pdf)
+<use Imagens/rede-2017.pdf>
+Package pdftex.def Info: Imagens/rede-2017.pdf  used on input line 83.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[60 <./Imagens/rede-2016.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2008.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2008.pdf, id=860, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2008.pdf, id=1083, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2008.pdf>
-Package pdftex.def Info: Imagens/rede-al-2008.pdf  used on input line 37.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2008.pdf  used on input line 92.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 92--93
+ [][][] 
+ []
+
+[61 <./Imagens/rede-2017.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2009.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2009.pdf, id=861, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2009.pdf, id=1093, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2009.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2009.pdf>
-Package pdftex.def Info: Imagens/rede-al-2009.pdf  used on input line 37.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2009.pdf  used on input line 99.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 99--100
+ [][][] 
+ []
+
+[62 <./Imagens/rede-al-2008.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2010.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2010.pdf, id=862, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2010.pdf, id=1104, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2010.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2010.pdf>
-Package pdftex.def Info: Imagens/rede-al-2010.pdf  used on input line 38.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2010.pdf  used on input line 106.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 106--107
+ [][][] 
+ []
+
+[63 <./Imagens/rede-al-2009.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2011.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2011.pdf, id=863, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2011.pdf, id=1115, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2011.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2011.pdf>
-Package pdftex.def Info: Imagens/rede-al-2011.pdf  used on input line 40.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2011.pdf  used on input line 113.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 113--114
+ [][][] 
+ []
+
+[64 <./Imagens/rede-al-2010.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2012.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2012.pdf, id=864, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2012.pdf, id=1125, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2012.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2012.pdf>
-Package pdftex.def Info: Imagens/rede-al-2012.pdf  used on input line 41.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2012.pdf  used on input line 121.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 121--122
+ [][][] 
+ []
+
+[65 <./Imagens/rede-al-2011.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2013.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2013.pdf, id=865, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2013.pdf, id=1135, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2013.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2013.pdf>
-Package pdftex.def Info: Imagens/rede-al-2013.pdf  used on input line 41.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2013.pdf  used on input line 128.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 128--129
+ [][][] 
+ []
+
+[66 <./Imagens/rede-al-2012.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2014.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2014.pdf, id=866, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2014.pdf, id=1145, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2014.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2014.pdf>
-Package pdftex.def Info: Imagens/rede-al-2014.pdf  used on input line 43.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2014.pdf  used on input line 135.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 135--136
+ [][][] 
+ []
+
+[67 <./Imagens/rede-al-2013.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2015.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2015.pdf, id=867, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2015.pdf, id=1155, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2015.pdf>
-Package pdftex.def Info: Imagens/rede-al-2015.pdf  used on input line 44.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2015.pdf  used on input line 143.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 143--144
+ [][][] 
+ []
+
+[68 <./Imagens/rede-al-2014.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2016.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2016.pdf, id=868, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2016.pdf, id=1165, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2016.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2016.pdf>
-Package pdftex.def Info: Imagens/rede-al-2016.pdf  used on input line 45.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2016.pdf  used on input line 150.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 150--151
+ [][][] 
+ []
+
+[69 <./Imagens/rede-al-2015.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-al-2017.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-al-2017.pdf, id=869, 848.60838pt x 536.3789pt>
+<Imagens/rede-al-2017.pdf, id=1176, 848.60838pt x 536.3789pt>
 File: Imagens/rede-al-2017.pdf Graphic file (type pdf)
 <use Imagens/rede-al-2017.pdf>
-Package pdftex.def Info: Imagens/rede-al-2017.pdf  used on input line 46.
-(pdftex.def)             Requested size: 172.99498pt x 109.34454pt.
+Package pdftex.def Info: Imagens/rede-al-2017.pdf  used on input line 157.
+(pdftex.def)             Requested size: 509.16896pt x 321.82982pt.
 
-Overfull \hbox (99.74083pt too wide) in paragraph at lines 36--49
-[][][] 
+Overfull \hbox (53.92485pt too wide) in paragraph at lines 157--158
+ [][][] 
  []
 
-
+[70 <./Imagens/rede-al-2016.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2008.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2008.pdf, id=870, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2008.pdf, id=1186, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2008.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2008.pdf  used on input line 80.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2008.pdf  used on input line 175.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[71 <./Imagens/rede-al-2017.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2009.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2009.pdf, id=871, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2009.pdf, id=1196, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2009.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2009.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2009.pdf  used on input line 80.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2009.pdf  used on input line 182.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[72 <./Imagens/rede-agr-br-2008.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2010.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2010.pdf, id=872, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2010.pdf, id=1206, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2010.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2010.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2010.pdf  used on input line 81.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
+Package pdftex.def Info: Imagens/rede-agr-br-2010.pdf  used on input line 189.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2011.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2011.pdf, id=873, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2011.pdf, id=1207, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2011.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2011.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2011.pdf  used on input line 83.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2011.pdf  used on input line 196.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[73 <./Imagens/rede-agr-br-2009.pdf>] [74 <./Imagens/rede-agr-br-2010.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2012.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2012.pdf, id=874, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2012.pdf, id=1222, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2012.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2012.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2012.pdf  used on input line 84.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2012.pdf  used on input line 204.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[75 <./Imagens/rede-agr-br-2011.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2013.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2013.pdf, id=875, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2013.pdf, id=1231, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2013.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2013.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2013.pdf  used on input line 84.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2013.pdf  used on input line 211.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[76 <./Imagens/rede-agr-br-2012.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2014.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2014.pdf, id=876, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2014.pdf, id=1239, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2014.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2014.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2014.pdf  used on input line 86.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
+Package pdftex.def Info: Imagens/rede-agr-br-2014.pdf  used on input line 218.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[77 <./Imagens/rede-agr-br-2013.pdf>]
 File: Imagens/rede-agr-br-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2015.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2015.pdf  used on input line 87.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2015.pdf  used on input line 226.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+ [78 <./Imagens/rede-agr-br-2014.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2016.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2016.pdf, id=877, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2016.pdf, id=1254, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2016.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2016.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2016.pdf  used on input line 88.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+Package pdftex.def Info: Imagens/rede-agr-br-2016.pdf  used on input line 233.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[79]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-br-2017.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-br-2017.pdf, id=878, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-br-2017.pdf, id=1259, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-br-2017.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-br-2017.pdf>
-Package pdftex.def Info: Imagens/rede-agr-br-2017.pdf  used on input line 89.
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-Overfull \hbox (58.77052pt too wide) in paragraph at lines 79--92
-[][][] 
- []
-
-[54 <./Imagens/rede-al-2008.pdf> <./Imagens/rede-al-2009.pdf> <./Imagens/rede-a
-l-2010.pdf> <./Imagens/rede-al-2011.pdf> <./Imagens/rede-al-2012.pdf> <./Imagen
-s/rede-al-2013.pdf> <./Imagens/rede-al-2014.pdf> <./Imagens/rede-al-2015.pdf> <
-./Imagens/rede-al-2016.pdf> <./Imagens/rede-al-2017.pdf>] [55]
-Overfull \vbox (11.07845pt too high) has occurred while \output is active []
-
-
-[56 <./Imagens/rede-agr-br-2008.pdf> <./Imagens/rede-agr-br-2009.pdf> <./Imagen
-s/rede-agr-br-2010.pdf> <./Imagens/rede-agr-br-2011.pdf> <./Imagens/rede-agr-br
--2012.pdf> <./Imagens/rede-agr-br-2013.pdf> <./Imagens/rede-agr-br-2014.pdf> <.
-/Imagens/rede-agr-br-2016.pdf> <./Imagens/rede-agr-br-2017.pdf>]
+Package pdftex.def Info: Imagens/rede-agr-br-2017.pdf  used on input line 240.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[80 <./Imagens/rede-agr-br-2016.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2008.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2008.pdf, id=970, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2008.pdf, id=1267, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2008.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2008.pdf  used on input line 99.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2008.pdf  used on input line 249.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[81 <./Imagens/rede-agr-br-2017.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2009.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2009.pdf, id=971, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2009.pdf, id=1276, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2009.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2009.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2009.pdf  used on input line 99.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2009.pdf  used on input line 256.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[82 <./Imagens/rede-agr-AL-2008.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2010.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2010.pdf, id=972, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2010.pdf, id=1285, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2010.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2010.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2010.pdf  used on input line 100.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2010.pdf  used on input line 263.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[83 <./Imagens/rede-agr-AL-2009.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2011.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2011.pdf, id=973, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2011.pdf, id=1293, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2011.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2011.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2011.pdf  used on input line 102.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2011.pdf  used on input line 270.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[84 <./Imagens/rede-agr-AL-2010.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2012.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2012.pdf, id=974, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2012.pdf, id=1301, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2012.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2012.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2012.pdf  used on input line 103.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2012.pdf  used on input line 278.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[85 <./Imagens/rede-agr-AL-2011.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2013.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2013.pdf, id=975, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2013.pdf, id=1309, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2013.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2013.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2013.pdf  used on input line 103.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2013.pdf  used on input line 285.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[86 <./Imagens/rede-agr-AL-2012.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2014.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2014.pdf, id=976, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2014.pdf, id=1317, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2014.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2014.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2014.pdf  used on input line 105.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2014.pdf  used on input line 292.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[87 <./Imagens/rede-agr-AL-2013.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2015.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2015.pdf, id=977, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2015.pdf, id=1326, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2015.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2015.pdf  used on input line 106.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2015.pdf  used on input line 300.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[88 <./Imagens/rede-agr-AL-2014.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2016.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2016.pdf, id=978, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2016.pdf, id=1334, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2016.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2016.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2016.pdf  used on input line 107.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+Package pdftex.def Info: Imagens/rede-agr-AL-2016.pdf  used on input line 307.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[89 <./Imagens/rede-agr-AL-2015.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-agr-AL-2017.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-agr-AL-2017.pdf, id=979, 741.49826pt x 595.28801pt>
+<Imagens/rede-agr-AL-2017.pdf, id=1342, 741.49826pt x 595.28801pt>
 File: Imagens/rede-agr-AL-2017.pdf Graphic file (type pdf)
 <use Imagens/rede-agr-AL-2017.pdf>
-Package pdftex.def Info: Imagens/rede-agr-AL-2017.pdf  used on input line 108.
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
-Overfull \hbox (99.74083pt too wide) in paragraph at lines 98--111
-[][][] 
- []
-
-
-Overfull \vbox (27.24243pt too high) has occurred while \output is active []
-
-
-[57 <./Imagens/rede-agr-AL-2008.pdf> <./Imagens/rede-agr-AL-2009.pdf> <./Imagen
-s/rede-agr-AL-2010.pdf> <./Imagens/rede-agr-AL-2011.pdf> <./Imagens/rede-agr-AL
--2012.pdf> <./Imagens/rede-agr-AL-2013.pdf> <./Imagens/rede-agr-AL-2014.pdf> <.
-/Imagens/rede-agr-AL-2015.pdf> <./Imagens/rede-agr-AL-2016.pdf> <./Imagens/rede
--agr-AL-2017.pdf>]
+Package pdftex.def Info: Imagens/rede-agr-AL-2017.pdf  used on input line 314.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[90 <./Imagens/rede-agr-AL-2016.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2008.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2008.pdf, id=1015, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2008.pdf, id=1350, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2008.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2008.pdf  used on input line 121
+Package pdftex.def Info: Imagens/rede-exact-br-2008.pdf  used on input line 328
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[91 <./Imagens/rede-agr-AL-2017.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2009.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2009.pdf, id=1016, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2009.pdf, id=1358, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2009.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2009.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2009.pdf  used on input line 121
+Package pdftex.def Info: Imagens/rede-exact-br-2009.pdf  used on input line 335
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[92 <./Imagens/rede-exact-br-2008.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2010.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2010.pdf, id=1017, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2010.pdf, id=1367, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2010.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2010.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2010.pdf  used on input line 122
+Package pdftex.def Info: Imagens/rede-exact-br-2010.pdf  used on input line 342
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[93 <./Imagens/rede-exact-br-2009.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2011.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2011.pdf, id=1018, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2011.pdf, id=1376, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2011.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2011.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2011.pdf  used on input line 124
+Package pdftex.def Info: Imagens/rede-exact-br-2011.pdf  used on input line 349
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[94 <./Imagens/rede-exact-br-2010.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2012.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2012.pdf, id=1019, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2012.pdf, id=1384, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2012.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2012.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2012.pdf  used on input line 125
+Package pdftex.def Info: Imagens/rede-exact-br-2012.pdf  used on input line 357
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[95 <./Imagens/rede-exact-br-2011.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2013.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2013.pdf, id=1020, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2013.pdf, id=1392, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2013.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2013.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2013.pdf  used on input line 125
+Package pdftex.def Info: Imagens/rede-exact-br-2013.pdf  used on input line 364
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[96 <./Imagens/rede-exact-br-2012.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2014.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2014.pdf, id=1021, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2014.pdf, id=1400, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2014.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2014.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2014.pdf  used on input line 127
+Package pdftex.def Info: Imagens/rede-exact-br-2014.pdf  used on input line 371
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[97 <./Imagens/rede-exact-br-2013.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2015.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2015.pdf, id=1022, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2015.pdf, id=1408, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2015.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2015.pdf  used on input line 128
+Package pdftex.def Info: Imagens/rede-exact-br-2015.pdf  used on input line 379
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[98 <./Imagens/rede-exact-br-2014.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2016.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2016.pdf, id=1023, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2016.pdf, id=1416, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2016.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2016.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2016.pdf  used on input line 129
+Package pdftex.def Info: Imagens/rede-exact-br-2016.pdf  used on input line 386
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[99 <./Imagens/rede-exact-br-2015.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-br-2017.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-br-2017.pdf, id=1024, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-br-2017.pdf, id=1425, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-br-2017.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-br-2017.pdf>
-Package pdftex.def Info: Imagens/rede-exact-br-2017.pdf  used on input line 130
+Package pdftex.def Info: Imagens/rede-exact-br-2017.pdf  used on input line 393
 .
-(pdftex.def)             Requested size: 159.33821pt x 127.92084pt.
-
-Overfull \hbox (58.77052pt too wide) in paragraph at lines 120--133
-[][][] 
- []
-
-[58]
-Overfull \vbox (11.07845pt too high) has occurred while \output is active []
-
-
-[59 <./Imagens/rede-exact-br-2008.pdf> <./Imagens/rede-exact-br-2009.pdf> <./Im
-agens/rede-exact-br-2010.pdf> <./Imagens/rede-exact-br-2011.pdf> <./Imagens/red
-e-exact-br-2012.pdf> <./Imagens/rede-exact-br-2013.pdf> <./Imagens/rede-exact-b
-r-2014.pdf> <./Imagens/rede-exact-br-2015.pdf> <./Imagens/rede-exact-br-2016.pd
-f> <./Imagens/rede-exact-br-2017.pdf>]
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[100 <./Imagens/rede-exact-br-2016.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2008.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2008.pdf, id=1065, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2008.pdf, id=1433, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2008.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2008.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2008.pdf  used on input line 140
+Package pdftex.def Info: Imagens/rede-exact-AL-2008.pdf  used on input line 403
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[101 <./Imagens/rede-exact-br-2017.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2009.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2009.pdf, id=1066, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2009.pdf, id=1441, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2009.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2009.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2009.pdf  used on input line 140
+Package pdftex.def Info: Imagens/rede-exact-AL-2009.pdf  used on input line 410
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[102 <./Imagens/rede-exact-AL-2008.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2010.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2010.pdf, id=1067, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2010.pdf, id=1450, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2010.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2010.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2010.pdf  used on input line 141
+Package pdftex.def Info: Imagens/rede-exact-AL-2010.pdf  used on input line 417
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[103 <./Imagens/rede-exact-AL-2009.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2011.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2011.pdf, id=1068, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2011.pdf, id=1458, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2011.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2011.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2011.pdf  used on input line 143
+Package pdftex.def Info: Imagens/rede-exact-AL-2011.pdf  used on input line 424
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[104 <./Imagens/rede-exact-AL-2010.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2012.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2012.pdf, id=1069, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2012.pdf, id=1466, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2012.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2012.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2012.pdf  used on input line 144
+Package pdftex.def Info: Imagens/rede-exact-AL-2012.pdf  used on input line 432
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[105 <./Imagens/rede-exact-AL-2011.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2013.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2013.pdf, id=1070, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2013.pdf, id=1475, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2013.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2013.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2013.pdf  used on input line 144
+Package pdftex.def Info: Imagens/rede-exact-AL-2013.pdf  used on input line 439
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[106 <./Imagens/rede-exact-AL-2012.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2014.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2014.pdf, id=1071, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2014.pdf, id=1483, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2014.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2014.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2014.pdf  used on input line 146
+Package pdftex.def Info: Imagens/rede-exact-AL-2014.pdf  used on input line 446
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[107 <./Imagens/rede-exact-AL-2013.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2015.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2015.pdf, id=1072, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2015.pdf, id=1491, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2015.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2015.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2015.pdf  used on input line 147
+Package pdftex.def Info: Imagens/rede-exact-AL-2015.pdf  used on input line 454
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[108 <./Imagens/rede-exact-AL-2014.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2016.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2016.pdf, id=1073, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2016.pdf, id=1499, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2016.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2016.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2016.pdf  used on input line 148
+Package pdftex.def Info: Imagens/rede-exact-AL-2016.pdf  used on input line 461
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
-
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+[109 <./Imagens/rede-exact-AL-2015.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Imagens/rede-exact-AL-2017.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagens/rede-exact-AL-2017.pdf, id=1074, 741.49826pt x 595.28801pt>
+<Imagens/rede-exact-AL-2017.pdf, id=1507, 741.49826pt x 595.28801pt>
 File: Imagens/rede-exact-AL-2017.pdf Graphic file (type pdf)
 <use Imagens/rede-exact-AL-2017.pdf>
-Package pdftex.def Info: Imagens/rede-exact-AL-2017.pdf  used on input line 149
+Package pdftex.def Info: Imagens/rede-exact-AL-2017.pdf  used on input line 468
 .
-(pdftex.def)             Requested size: 172.99498pt x 138.88445pt.
+(pdftex.def)             Requested size: 444.90239pt x 357.17557pt.
+) [110 <./Imagens/rede-exact-AL-2016.pdf>] [111 <./Imagens/rede-exact-AL-2017.p
+df>]
+:<-
+:<+ ./capitulos/graficos.tex
+\openout2 = `./capitulos/graficos.aux'.
 
-Overfull \hbox (99.74083pt too wide) in paragraph at lines 139--152
-[][][] 
+(capitulos/graficos.tex
+Ap\^endice B.
+File: Imagens/graf-linha-degree-br-al.pdf Graphic file (type pdf)
+<use Imagens/graf-linha-degree-br-al.pdf>
+Package pdftex.def Info: Imagens/graf-linha-degree-br-al.pdf  used on input lin
+e 12.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 12--13
+ [][][] 
  []
 
-)
-Overfull \vbox (42.5969pt too high) has occurred while \output is active []
+File: Imagens/agricultural/graf-linha-degree-br-al.pdf Graphic file (type pdf)
+<use Imagens/agricultural/graf-linha-degree-br-al.pdf>
+Package pdftex.def Info: Imagens/agricultural/graf-linha-degree-br-al.pdf  used
+ on input line 21.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 21--22
+ [][][] 
+ []
+
+[112
 
 
-[60 <./Imagens/rede-exact-AL-2008.pdf> <./Imagens/rede-exact-AL-2009.pdf> <./Im
-agens/rede-exact-AL-2010.pdf> <./Imagens/rede-exact-AL-2011.pdf> <./Imagens/red
-e-exact-AL-2012.pdf> <./Imagens/rede-exact-AL-2013.pdf> <./Imagens/rede-exact-A
-L-2014.pdf> <./Imagens/rede-exact-AL-2015.pdf> <./Imagens/rede-exact-AL-2016.pd
-f> <./Imagens/rede-exact-AL-2017.pdf>]
+
+
+]
+File: Imagens/exact/graf-linha-degree-br-al.pdf Graphic file (type pdf)
+<use Imagens/exact/graf-linha-degree-br-al.pdf>
+Package pdftex.def Info: Imagens/exact/graf-linha-degree-br-al.pdf  used on inp
+ut line 30.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 30--31
+ [][][] 
+ []
+
+[113]
+File: Imagens/degree-hist.pdf Graphic file (type pdf)
+<use Imagens/degree-hist.pdf>
+Package pdftex.def Info: Imagens/degree-hist.pdf  used on input line 41.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 41--42
+ [][][] 
+ []
+
+[114]
+File: Imagens/agricultural/degree-hist.pdf Graphic file (type pdf)
+<use Imagens/agricultural/degree-hist.pdf>
+Package pdftex.def Info: Imagens/agricultural/degree-hist.pdf  used on input li
+ne 50.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 50--51
+ [][][] 
+ []
+
+[115]
+File: Imagens/exact/degree-hist.pdf Graphic file (type pdf)
+<use Imagens/exact/degree-hist.pdf>
+Package pdftex.def Info: Imagens/exact/degree-hist.pdf  used on input line 59.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 59--60
+ [][][] 
+ []
+
+[116]
+File: Imagens/graf-linha-closeness-br-al.pdf Graphic file (type pdf)
+<use Imagens/graf-linha-closeness-br-al.pdf>
+Package pdftex.def Info: Imagens/graf-linha-closeness-br-al.pdf  used on input 
+line 71.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 71--72
+ [][][] 
+ []
+
+[117]
+File: Imagens/agricultural/graf-linha-closeness-br-al.pdf Graphic file (type pd
+f)
+<use Imagens/agricultural/graf-linha-closeness-br-al.pdf>
+Package pdftex.def Info: Imagens/agricultural/graf-linha-closeness-br-al.pdf  u
+sed on input line 80.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 80--81
+ [][][] 
+ []
+
+[118]
+File: Imagens/exact/graf-linha-closeness-br-al.pdf Graphic file (type pdf)
+<use Imagens/exact/graf-linha-closeness-br-al.pdf>
+Package pdftex.def Info: Imagens/exact/graf-linha-closeness-br-al.pdf  used on 
+input line 89.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 89--90
+ [][][] 
+ []
+
+[119]
+File: Imagens/closeness-hist.pdf Graphic file (type pdf)
+<use Imagens/closeness-hist.pdf>
+Package pdftex.def Info: Imagens/closeness-hist.pdf  used on input line 100.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 100--101
+ [][][] 
+ []
+
+[120]
+File: Imagens/agricultural/closeness-hist.pdf Graphic file (type pdf)
+<use Imagens/agricultural/closeness-hist.pdf>
+Package pdftex.def Info: Imagens/agricultural/closeness-hist.pdf  used on input
+ line 109.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 109--110
+ [][][] 
+ []
+
+[121]
+File: Imagens/exact/closeness-hist.pdf Graphic file (type pdf)
+<use Imagens/exact/closeness-hist.pdf>
+Package pdftex.def Info: Imagens/exact/closeness-hist.pdf  used on input line 1
+18.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 118--119
+ [][][] 
+ []
+
+[122]
+File: Imagens/graf-linha-betweeness-br-al.pdf Graphic file (type pdf)
+<use Imagens/graf-linha-betweeness-br-al.pdf>
+Package pdftex.def Info: Imagens/graf-linha-betweeness-br-al.pdf  used on input
+ line 129.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 129--130
+ [][][] 
+ []
+
+[123]
+File: Imagens/agricultural/graf-linha-betweeness-br-al.pdf Graphic file (type p
+df)
+<use Imagens/agricultural/graf-linha-betweeness-br-al.pdf>
+Package pdftex.def Info: Imagens/agricultural/graf-linha-betweeness-br-al.pdf  
+used on input line 139.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 139--140
+ [][][] 
+ []
+
+[124]
+File: Imagens/exact/graf-linha-betweeness-br-al.pdf Graphic file (type pdf)
+<use Imagens/exact/graf-linha-betweeness-br-al.pdf>
+Package pdftex.def Info: Imagens/exact/graf-linha-betweeness-br-al.pdf  used on
+ input line 148.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 148--149
+ [][][] 
+ []
+
+[125]
+File: Imagens/betweeness-hist.pdf Graphic file (type pdf)
+<use Imagens/betweeness-hist.pdf>
+Package pdftex.def Info: Imagens/betweeness-hist.pdf  used on input line 159.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 159--160
+ [][][] 
+ []
+
+[126]
+File: Imagens/agricultural/betweeness-hist.pdf Graphic file (type pdf)
+<use Imagens/agricultural/betweeness-hist.pdf>
+Package pdftex.def Info: Imagens/agricultural/betweeness-hist.pdf  used on inpu
+t line 168.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 168--169
+ [][][] 
+ []
+
+[127]
+File: Imagens/exact/betweeness-hist.pdf Graphic file (type pdf)
+<use Imagens/exact/betweeness-hist.pdf>
+Package pdftex.def Info: Imagens/exact/betweeness-hist.pdf  used on input line 
+177.
+(pdftex.def)             Requested size: 476.5093pt x 357.38211pt.
+
+Overfull \hbox (21.26518pt too wide) in paragraph at lines 177--178
+ [][][] 
+ []
+
+[128]) [129]
 :<-
 :<+ Dissertation.bbl
-(Dissertation.bbl [61
+(Dissertation.bbl [130
 
 
 ])
 :<-
-[62]
+[131]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 211.
+(Font)              scaled to size 10.79993pt on input line 214.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [63
+ [132
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (Dissertation.aux (capitulos/introducao.aux)
 (capitulos/fundamentacao.aux) (capitulos/metodologia.aux)
 (capitulos/resultados.aux) (capitulos/conclusao.aux) (capitulos/redes.aux)
+(capitulos/graficos.aux)
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `Dissertation.upb'.
 
  (Dissertation.upa))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 858987D91FE403E115C853406E6D444E;5856.
+(rerunfilecheck)             Checksum: 62E28B07D4FBF63DFED7092F3F07BB3E;6940.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 57752 strings out of 492970
- 1243848 string characters out of 3143824
- 1436015 words of memory out of 3000000
- 59936 multiletter control sequences out of 15000+200000
- 780978 words of font info for 465 fonts, out of 3000000 for 9000
+ 58031 strings out of 492970
+ 1248976 string characters out of 3143824
+ 1447344 words of memory out of 3000000
+ 60025 multiletter control sequences out of 15000+200000
+ 782166 words of font info for 474 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,16n,96p,1528b,923s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/base/8r.enc}<D:/MikTex/fonts/type1/public/fourier/
@@ -3374,9 +3739,9 @@ kTex/fonts/type1/adobe/utopia/putb8a.pfb><D:/MikTex/fonts/type1/adobe/utopia/pu
 tbi8a.pfb><D:/MikTex/fonts/type1/adobe/utopia/putr8a.pfb><D:/MikTex/fonts/type1
 /adobe/utopia/putri8a.pfb><D:/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Mik
 Tex/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Dissertation.pdf (65 pages, 41424817 bytes).
+Output written on Dissertation.pdf (136 pages, 41532696 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 71988 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1753 PDF objects out of 2073 (max. 8388607)
+ 379 named destinations out of 1000 (max. 500000)
+ 72020 words of extra memory for PDF output out of 74296 (max. 10000000)
 
